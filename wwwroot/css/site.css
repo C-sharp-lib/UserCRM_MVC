@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+/*  Fonts  */
+
+.ubuntu-light {
+  font-family: "Ubuntu", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu {
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/*  End Fonts  */
+
+/*  Nav  */
+
+.dropdown-toggle::after {
+  display: none;
+}
+.dropdown-menu.show::before {
+  display: none;
+}
+/*  End Nav  */
+
+
+/*  Forms  */
+
+.validation-summary {
+  list-style-type: none;
+  color: tomato;
+}
+
+/*  End Forms  */
+
+.list-group {
+  background-image: linear-gradient(90deg, rgb(22,22,22), rgb(80,80,80)) !important;
+  background-image: -webkit-linear-gradient(90deg, rgb(22,22,22), rgb(80,80,80)) !important;
+  background-image: -moz-linear-gradient(90deg, rgb(22,22,22), rgb(80,80,80)) !important;
+  background-image: -ms-linear-gradient(90deg, rgb(22,22,22), rgb(80,80,80)) !important;
+}
+.fc-toolbar-title {
+  color: dodgerblue !important;
+}
+.fc-header-toolbar .fc-button-group .fc-button-active.fc-button.fc-button-primary {
+  color: dodgerblue !important;
+  background-image: linear-gradient(90deg, rgb(22,22,22), rgb(80,80,80)) !important;
+  background-image: -webkit-linear-gradient(90deg, rgb(22,22,22), rgb(80,80,80)) !important;
+  background-image: -moz-linear-gradient(90deg, rgb(22,22,22), rgb(80,80,80)) !important;
+  background-image: -ms-linear-gradient(90deg, rgb(22,22,22), rgb(80,80,80)) !important;
+}
+
+.fc-button.fc-button-primary {
+  background-image: linear-gradient(90deg, rgb(22,22,22), rgb(80,80,80)) !important;
+  background-image: -webkit-linear-gradient(90deg, rgb(22,22,22), rgb(80,80,80)) !important;
+  background-image: -moz-linear-gradient(90deg, rgb(22,22,22), rgb(80,80,80)) !important;
+  background-image: -ms-linear-gradient(90deg, rgb(22,22,22), rgb(80,80,80)) !important;
+}
+
+.fc-resourceTimelineDay-button,
+.fc-resourceTimelineThreeDays-button,
+.fc-timeGridWeek-button,
+.fc-dayGridMonth-button,
+.fc-listWeek-button {
+  color: white;
+  background-image: linear-gradient(90deg, dodgerblue, indigo) !important;
+  background-image: -webkit-linear-gradient(90deg, dodgerblue, indigo) !important;
+  background-image: -moz-linear-gradient(90deg, dodgerblue, indigo) !important;
+  background-image: -ms-linear-gradient(90deg, dodgerblue, indigo) !important;
+
+}
+#job-calendar > div.fc-header-toolbar.fc-toolbar.fc-toolbar-ltr > div:nth-child(3) > div > button.fc-timeGridWeek-button.fc-button.fc-button-primary,
+#job-calendar > div.fc-header-toolbar.fc-toolbar.fc-toolbar-ltr > div:nth-child(3) > div > button.fc-resourceTimelineThreeDays-button.fc-button-primary,
+#job-calendar > div.fc-header-toolbar.fc-toolbar.fc-toolbar-ltr > div:nth-child(3) > div > button.fc-dayGridMonth-button.fc-button.fc-button-primary,
+#job-calendar > div.fc-header-toolbar.fc-toolbar.fc-toolbar-ltr > div:nth-child(3) > div > button.fc-listWeek-button.fc-button.fc-button-primary,
+#job-calendar > div.fc-header-toolbar.fc-toolbar.fc-toolbar-ltr > div > button {
+  color: white;
+  background-image: linear-gradient(90deg, dodgerblue, indigo) !important;
+  background-image: -webkit-linear-gradient(90deg, dodgerblue, indigo) !important;
+  background-image: -moz-linear-gradient(90deg, dodgerblue, indigo) !important;
+  background-image: -ms-linear-gradient(90deg, dodgerblue, indigo) !important;
+}
+.fc-toolbar-title,
+.fc-daygrid-day-number {
+  color: dodgerblue !important;
+}
+
+.card-container {
+  padding: 40px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card-wrap {
+  margin: 10px;
+  transform: perspective(400px);
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+.card-wrap:hover .card-info {
+  transform: translateY(0);
+}
+.card-wrap:hover .card-info p {
+  opacity: 1;
+}
+.card-wrap:hover .card-info,
+.card-wrap:hover .card-info p {
+  transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.card-wrap:hover .card-info:after {
+  transition: 5s cubic-bezier(0.23, 1, 0.32, 1);
+  opacity: 1;
+  transform: translateY(0);
+}
+.card-wrap:hover .card-bg {
+  transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1), opacity 5s cubic-bezier(0.23, 1, 0.32, 1);
+  opacity: 0.8;
+}
+.card-wrap:hover .card-vue {
+  transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 2s cubic-bezier(0.23, 1, 0.32, 1);
+  box-shadow: rgba(255, 255, 255, 0.2) 0 0 40px 5px, white 0 0 0 1px, rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px, inset white 0 0 0 6px;
+}
+
+.card-vue {
+  position: relative;
+  flex: 0 0 240px;
+  width: 240px;
+  height: 320px;
+  background-color: #333;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px, inset rgba(255, 255, 255, 0.5) 0 0 0 6px;
+  transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.card-bg {
+  opacity: 0.5;
+  position: absolute;
+  top: -5px;
+  left: -10px;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95), opacity 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  pointer-events: none;
+}
+
+.card-info {
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  transform: translateY(40%);
+  transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.card-info p {
+  text-align: left;
+  opacity: 0;
+  transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.card-info * {
+  position: relative;
+  z-index: 1;
+}
+.card-info:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.6) 100%);
+  background-blend-mode: overlay;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.card-info h6 {
+  font-family: "Ubuntu", serif;
+  font-weight: 700;
+}

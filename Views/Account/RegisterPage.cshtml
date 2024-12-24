@@ -1,0 +1,70 @@
+﻿@model UserCRM.DTO.RegisterDTO
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row mt-11">
+    <div class="col-12 col-md-6 offset-md-3">
+        <div class="card shadow-lg bg-gradient-dark">
+            <div class="card-header bg-gradient-dark">
+                <h1 class="text-gradient text-primary ubuntu-bold">Register</h1>
+            </div>
+            <div class="card-body p-3">
+                <form asp-action="RegisterUser" asp-controller="Account" method="post">
+                    <div asp-validation-summary="All" class="validation-summary"></div>
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <div class="form-group">
+                                <label asp-for="FirstName" class="text-gradient text-primary ubuntu-bold">First Name</label>
+                                <input type="text" class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu" asp-for="FirstName">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="form-group">
+                                <label asp-for="MiddleName" class="text-gradient text-primary ubuntu-bold">Middle Name</label>
+                                <input type="text" class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu" asp-for="MiddleName">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="form-group">
+                                <label asp-for="LastName" class="text-gradient text-primary ubuntu-bold">Last Name</label>
+                                <input type="text" class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu" asp-for="LastName">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label asp-for="UserName" class="text-gradient text-primary ubuntu-bold">Username</label>
+                                <input type="text" class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu" asp-for="UserName">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label asp-for="Email" class="text-gradient text-primary ubuntu-bold">Email</label>
+                                <input type="email" class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu" asp-for="Email">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label asp-for="Password" class="text-gradient text-primary ubuntu-bold">Password</label>
+                                <input type="password" class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu" asp-for="Password">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label asp-for="ConfirmPassword" class="text-gradient text-primary ubuntu-bold">Confirm Password</label>
+                                <input type="password" class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu" asp-for="ConfirmPassword">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-3">
+                        <input type="submit" class="btn bg-gradient-info" value="Register">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

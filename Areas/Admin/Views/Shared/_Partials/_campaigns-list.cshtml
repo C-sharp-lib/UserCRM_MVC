@@ -1,0 +1,39 @@
+<div class="card shadow-lg bg-gradient-dark">
+    <div class="card-header bg-gradient-dark">
+        <h1 class="text-gradient text-primary ubuntu-bold">Campaigns</h1>
+    </div>
+    <div class="card-body p-3">
+        <table class="table table-borderless table-hover table-striped">
+            <thead>
+            <tr>
+                <th class="text-gradient text-primary ubuntu-bold">ID</th>
+                <th class="text-gradient text-primary ubuntu-bold">Title</th>
+                <th class="text-gradient text-primary ubuntu-bold">Status</th>
+                <th class="text-gradient text-primary ubuntu-bold">Time Frame</th>
+                <th class="text-gradient text-primary ubuntu-bold">Budget</th>
+                <th class="text-gradient text-primary ubuntu-bold">Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            @if (ViewBag.Campaigns != null)
+            {
+                @foreach (var campaign in ViewBag.Campaigns)
+                {
+                    <tr>
+                        <td class="text-white ubuntu">@campaign.CampaignId</td>
+                        <td class="text-white ubuntu">@campaign.Title</td>
+                        <td class="text-white ubuntu">@campaign.Status</td>
+                        <td class="text-white ubuntu">@campaign.StartDate.ToString("d") - @campaign.EndDate.ToString("d")</td>
+                        <td class="text-white ubuntu">@campaign.Budget.ToString("C")</td>
+                        <td>
+                            <a  class="m-3 btn-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="View @campaign.Title" data-container="body" data-animation="true"><i class="fa-solid fa-list text-gradient text-info"></i></a>
+                            <a  class="m-3 btn-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit @campaign.Title" data-container="body" data-animation="true"><i class="fa-regular fa-pen-to-square text-gradient text-primary"></i></a>
+                            <a  class="m-3 btn-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete @campaign.Title" data-container="body" data-animation="true"><i class="fa-regular fa-trash-can text-gradient text-danger"></i></a>
+                        </td>
+                    </tr>
+                }
+            }
+            </tbody>
+        </table>
+    </div>
+</div>

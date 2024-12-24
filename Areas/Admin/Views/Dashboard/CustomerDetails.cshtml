@@ -1,0 +1,74 @@
+﻿@model UserCRM.Models.Customers
+@{
+  Layout = "_Layout";
+}
+ <div class="container-fluid">
+ <div class="row mt-11 mb-11">
+   <div class="col-12 col-md-5">
+
+     <div class="card shadow-lg bg-gradient-dark">
+       <div class="card-body bg-gradient-dark p-3">
+         <h3 class="text-gradient text-info ubuntu-bold">Name: @Model.Name</h3>
+         <p class="text-gradient text-primary ubuntu-bold">Email: @Model.Email</p>
+         <p class="text-gradient text-primary ubuntu-bold">Contact Name: @Model.ContactPerson</p>
+         <p class="text-gradient text-primary ubuntu-bold">
+           @Model.Address @Model.City, @Model.State @Model.ZipCode
+         </p>
+         <p class="text-gradient text-primary ubuntu-bold">Industry: @Model.Industry</p>
+         <p class="text-gradient text-primary ubuntu-bold">Phone: @Model.Phone</p>
+         <p class="text-gradient text-primary ubuntu-bold">Website: @Model.Website</p>
+         <p class="text-gradient text-primary ubuntu-bold">Status: @Model.Status</p>
+         <p class="text-gradient text-primary ubuntu-bold">Fax: @Model.Fax</p>
+         <p class="text-gradient text-primary ubuntu-bold">Customer Type: @Model.CustomerType</p>
+       </div>
+     </div>
+   </div>
+   <div class="col-12 col-md-7">
+
+     <div class="card shadow-lg bg-gradient-dark">
+       <div class="card-header bg-gradient-dark">
+         <h1 class="text-gradient text-primary ubuntu-bold">Customer Orders</h1>
+       </div>
+       <div class="card-body bg-gradient-dark p-3">
+         <table class="table table-hover table-borderless table-striped">
+           <thead>
+           <tr>
+             <th class="text-gradient text-primary ubuntu-bold">Order ID</th>
+             <th class="text-gradient text-primary ubuntu-bold">Order Date</th>
+             <th class="text-gradient text-primary ubuntu-bold">Order Total</th>
+             <th class="text-gradient text-primary ubuntu-bold">Payment Status</th>
+             <th class="text-gradient text-primary ubuntu-bold">Payment Method</th>
+             <th class="text-gradient text-primary ubuntu-bold">Actions</th>
+           </tr>
+           </thead>
+           <tbody>
+           @if (Model.CustomerOrders.Count > 0)
+           {
+             @foreach (var order in Model.CustomerOrders)
+             {
+               <tr>
+                 <td class="text-white ubuntu">@order.Order.OrderId</td>
+                 <td class="text-white ubuntu">@order.Order.OrderDate.ToString("d")</td>
+                 <td class="text-white ubuntu">@order.Order.TotalAmount.ToString("C")</td>
+                 <td class="text-white ubuntu">@order.Order.PaymentStatus</td>
+                 <td class="text-white ubuntu">@order.Order.PaymentMethod</td>
+                 <td>
+                   @Html.ActionLink("", "OrderDetails", "Dashboard", new {id = order.Order.OrderId}, new {@class="m-3 btn-tooltip fa-solid fa-list text-gradient text-info", title=$"View {order.Customer.Name}'s orders?"})
+                   <a href="" class="m-3 btn-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete @order.Customer.Name's orders" data-container="body" data-animation="true"><i class="fa-regular fa-trash-can text-gradient text-danger"></i></a>
+                 </td>
+               </tr>
+             }
+           }
+           else
+           {
+             <tr>
+               <td>No customer orders</td>
+             </tr>
+           }
+           </tbody>
+         </table>
+       </div>
+     </div>
+   </div>
+ </div>
+ </div>

@@ -1,0 +1,43 @@
+﻿@model UserCRM.Models.Products
+
+@{
+    Layout = "_Layout";
+}
+<div class="container-fluid">
+<div class="row mt-11">
+    <div class="col-12 col-md-6 col-lg-6">
+        <div class="card shadow-lg bg-gradient-dark">
+            <div class="card-header bg-gradient-dark">
+                <h1 class="text-gradient text-primary ubuntu-bold">Product Details</h1>
+            </div>
+            <div class="card-body bg-gradient-dark p-3">
+                <div id="app" class="card-container">
+                    <card data-image="@Model.ImageUrl">
+                        <h6 slot="header" class="text-gradient text-info ubuntu-bold">@Model.TruncateWordsThree(Model.Name)</h6>
+                        <p slot="content" class="text-gradient text-success ubuntu-bold">@Model.Price.ToString("C")</p>
+                    </card>
+                </div>
+                <h3 class="text-gradient text-info ubuntu-bold">
+                    @Model.Name
+                </h3>
+                <p class="lead text-gradient text-success ubuntu-bold">
+                    @Model.Price.ToString("C")
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-6">
+        <div class="card shadow-lg bg-gradient-dark">
+            <div class="card-body bg-gradient-dark p-3">
+                <h3 class="text-gradient text-info ubuntu-bold text-center">Description</h3>
+                <p class="text-white ubuntu">@Model.Description</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+@section Scripts {
+    <script type="text/javascript">
+        
+    </script>
+}

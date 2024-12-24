@@ -1,0 +1,180 @@
+﻿@model UserCRM.Models.Users
+@{
+    Layout = "_Layout";
+    var user = ViewBag.Details;
+}
+ <div class="container-fluid">
+    <div class="row mt-11 mb-11">
+      <div class="col-12 col-md-5">
+
+        <div class="card shadow-lg bg-gradient-dark">
+          <div class="page-header min-vh-45 rounded" style="background-image: url(@Url.Content($"~/Uploads/users/{Model.ImageUrl}")); background-position: center; background-size: cover; background-repeat: no-repeat;">
+            <div class="container">
+              <div class="row justify-content-center">
+              </div>
+            </div>
+            <div class="position-absolute w-100 z-index-1 bottom-0">
+              <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 40" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                  <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="moving-waves">
+                  <use xlink:href="#gentle-wave" x="48" y="-1" fill="rgba(55,55,55,0.40" />
+                  <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(55,55,55,0.35)" />
+                  <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(55,55,55,0.25)" />
+                  <use xlink:href="#gentle-wave" x="48" y="8" fill="rgba(55,55,55,0.20)" />
+                  <use xlink:href="#gentle-wave" x="48" y="13" fill="rgba(55,55,55,0.15)" />
+                  <use xlink:href="#gentle-wave" x="48" y="16" fill="rgba(55,55,55,1)" />
+                </g>
+              </svg>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <h3 class="text-gradient text-info ubuntu-bold">@Model.FirstName @Model.MiddleName @Model.LastName</h3>
+            <p class="text-gradient text-primary ubuntu-bold">Date Of Birth: @String.Format("{0:MM/dd/yyyy}", Model.DOB)</p>
+            <p class="text-gradient text-primary ubuntu-bold">UserName: @Model.UserName</p>
+            <p class="text-gradient text-primary ubuntu-bold">Email: @Model.Email</p>
+            <p class="text-gradient text-primary ubuntu-bold">Hire Date: @String.Format("{0:MM/dd/yyyy}", Model.HireDate)</p>
+            <p class="text-gradient text-primary ubuntu-bold">Phone Number: @Model.Phone</p>
+            <p class="text-gradient text-primary ubuntu-bold">Active: @Model.IsActive</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-12 col-md-7">
+        <div class="row">
+          <div class="col-12 col-md-12">
+            @await Html.PartialAsync("_Partials/_userUpdateForm", model:Model)
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-12">
+            <div class="row">
+              <div class="col-12">
+                <div class="card shadow-lg bg-gradient-dark">
+                  <div class="card-header bg-gradient-dark">
+                    <h3 class="text-gradient text-primary ubuntu-bold">Campaign User Tasks</h3>
+                  </div>
+                  <div class="card-body bg-gradient-dark p-3">
+                    <table class="table table-hover table-striped table-borderless">
+                      <thead>
+                      <tr class="text-center">
+                        <th class="text-gradient text-primary ubuntu-bold">Task Username</th>
+                        <th class="text-gradient text-primary ubuntu-bold">Campaign Name</th>
+                        <th class="text-gradient text-primary ubuntu-bold">Task Title</th>
+                        <th class="text-gradient text-primary ubuntu-bold">Task Due Date</th>
+                        <th class="text-gradient text-primary ubuntu-bold">Task Priority</th>
+                        <th class="text-gradient text-primary ubuntu-bold">Task Status</th>
+                        <th class="text-gradient text-primary ubuntu-bold">Actions</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      @if (user.CampaignUserTasks != null)
+                      {
+                        @foreach (var u in user.CampaignUserTasks)
+                        {
+                          <tr class="text-center">
+                            <td class="text-white ubuntu text-sm">@u.User.UserName</td>
+                            <td class="text-white ubuntu text-sm">@u.Campaign.Title</td>
+                            <td class="text-white ubuntu text-sm">@u.Task.Title</td>
+                            <td class="text-white ubuntu text-sm">@u.Task.DueDate.ToString("d")</td>
+                            <td class="text-white ubuntu text-sm">@u.Task.Priority</td>
+                            <td class="text-white ubuntu text-sm">@u.Task.Status</td>
+                            <td class="text-sm">
+                              @Html.ActionLink("", "CampaignUserTaskDetails", "Dashboard", new {id = u.CampaignUserTaskId}, new {@class="m-3 btn-tooltip fa-solid fa-list text-gradient text-info", title=$"View {u.Campaign.Title} task"})
+                              <a class="m-3 btn-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete" data-container="body" data-animation="true"><i class="fa-regular fa-trash-can text-gradient text-danger"></i></a>
+                            </td>
+                          </tr>
+                        }
+                      }
+                      else
+                      {
+                        <tr class="text-center">
+                          <td class="text-white ubuntu text-sm">No campaign user tasks right now for this user.</td>
+                        </tr>
+                      }
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-12">
+                <div class="card shadow-lg bg-gradient-dark">
+                  <div class="card-header bg-gradient-dark">
+                    <h3 class="text-gradient text-primary ubuntu-bold">Job User Tasks</h3>
+                  </div>
+                  <div class="card-body bg-gradient-dark p-3">
+                    <div>
+                      <table class="table table-hover table-striped table-borderless">
+                        <thead>
+                        <tr class="text-center">
+                          <th class="text-gradient text-primary ubuntu-bold">Task Username</th>
+                          <th class="text-gradient text-primary ubuntu-bold">Job Title</th>
+                          <th class="text-gradient text-primary ubuntu-bold">Task Title</th>
+                          <th class="text-gradient text-primary ubuntu-bold">Job Start Date</th>
+                          <th class="text-gradient text-primary ubuntu-bold">Task Due Date</th>
+                          <th class="text-gradient text-primary ubuntu-bold">Task Priority</th>
+                          <th class="text-gradient text-primary ubuntu-bold">Task Status</th>
+                          <th class="text-gradient text-primary ubuntu-bold">Actions</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        @if (user.JobUserTasks != null)
+                        {
+                          @foreach (var u in user.JobUserTasks)
+                          {
+                            <tr class="text-center">
+                              <td class="text-white ubuntu text-sm">@u.User.UserName</td>
+                              <td class="text-white ubuntu text-sm">@u.Job.JobTitle</td>
+                              <td class="text-white ubuntu text-sm">@u.Task.Title</td>
+                              <td class="text-white ubuntu text-sm">@u.Job.StartDate.ToString("d")</td>
+                              <td class="text-white ubuntu text-sm">@u.Task.DueDate.ToString("d")</td>
+                              <td class="text-white ubuntu text-sm">@u.Task.Priority</td>
+                              <td class="text-white ubuntu text-sm">@u.Task.Status</td>
+                              <td class="text-sm">
+                                @Html.ActionLink("", "JobUserTaskDetails", "Dashboard", new {id = u.JobUserTaskId}, new {@class="m-3 btn-tooltip fa-solid fa-list text-gradient text-info", title=$"View {u.Job.JobTitle} task"})
+                                <a class="m-3 btn-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete" data-container="body" data-animation="true"><i class="fa-regular fa-trash-can text-gradient text-danger"></i></a>
+                              </td>
+                            </tr>
+                          }
+                        }
+                        else
+                        {
+                          <tr class="text-center">
+                            <td class="text-white ubuntu text-sm">No job user tasks right now for this user.</td>
+                          </tr>
+                        }
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+@section Scripts {
+  <script>
+    // Preview the image before uploading
+    document.getElementById('ImageUrl').onchange = function(event) {
+      var reader = new FileReader();
+      reader.onload = function() {
+        var output = document.getElementById('previewImage');
+        output.src = reader.result;
+        output.style.display = 'block';
+      };
+      reader.readAsDataURL(event.target.files[0]);
+    };
+    document.getElementById('ImageUrl').addEventListener('change', function(event) {
+      let fileName = event.target.files.length > 0 ? event.target.files[0].name : "No file selected";
+      document.getElementById('fileName').textContent = fileName;
+    });
+  </script>
+}

@@ -1,0 +1,277 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+<div class="container-fluid">
+    <div class="row mt-11">
+        <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card card-stats bg-gradient-dark shadow-lg">
+                <div class="card-header bg-gradient-dark card-header-icon p-1">
+                    <div class="card-icon bg-gradient-info">
+                        <i class="fa-solid fa-shop text-white"></i>
+                    </div>
+                    <p class="card-category text-white me-3 ubuntu-bold">Product</p>
+                    <h3 class="card-title text-gradient text-info me-3 ubuntu-bold">
+                        <small>@ViewBag.ProductCount</small>
+                    </h3>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <!--            <i class="fa-solid fa-circle-exclamation text-gradient text-danger"></i>-->
+                        <!--            <a href="#">Get More Space...</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card card-stats bg-gradient-dark shadow-lg">
+                <div class="card-header bg-gradient-dark card-header-icon p-1">
+                    <div class="card-icon bg-gradient-success">
+                        <i class="fa-solid fa-bag-shopping text-white"></i>
+                    </div>
+                    <p class="card-category text-white me-3 ubuntu-bold">Customers</p>
+                    <h3 class="card-title text-gradient text-success me-3 ubuntu-bold">@ViewBag.CustomerCount</h3>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <!--            <i class="fa-regular fa-calendar-days text-gradient text-primary"></i> Last 24 Hours-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card card-stats bg-gradient-dark shadow-lg">
+                <div class="card-header bg-gradient-dark card-header-icon p-1">
+                    <div class="card-icon bg-gradient-warning">
+                        <i class="fa-solid fa-briefcase text-white"></i>
+                    </div>
+                    <p class="card-category text-white me-3 ubuntu-bold">Jobs</p>
+                    <h3 class="card-title text-gradient text-primary me-3 ubuntu-bold">@ViewBag.JobCount</h3>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <!--            <i class="fa-solid fa-location-dot text-gradient text-success"></i> Tracked from Github-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card card-stats bg-gradient-dark shadow-lg">
+                <div class="card-header bg-gradient-dark card-header-icon p-1">
+                    <div class="card-icon bg-gradient-danger">
+                        <i class="fa-solid fa-users-rectangle text-white"></i>
+                    </div>
+                    <p class="card-category text-white me-3 ubuntu-bold">Users</p>
+                    <h3 class="card-title me-3 text-gradient text-danger ubuntu-bold">@ViewBag.UserCount</h3>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <!--            <i class="fa-regular fa-pen-to-square text-gradient text-info"></i> Just Updated-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-md-6 mt-md-0 mt-4">
+            <div class="card shadow-lg bg-gradient-dark z-index-2">
+                <div class="card-header p-3 pb-0 bg-gradient-dark">
+                    <h6 class="text-gradient text-info ubuntu-bold">Line chart with gradient</h6>
+                </div>
+                <div class="card-body p-3">
+                    <div class="chart">
+                        <canvas id="line-chart-gradient" class="chart-canvas" height="300"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="nav-wrapper position-relative end-0">
+                <ul class="nav nav-pills nav-fill p-1 nav-tabs" role="tablist">
+                    <li class="nav-item bg-gradient-dark" role="presentation">
+                        <a class="nav-link active mb-0 px-0 py-1 text-gradient text-primary ubuntu-bold" data-bs-toggle="tab" role="tab" data-bs-target="#customers-tab-pane" aria-controls="customers" aria-selected="true">
+                            Customers
+                        </a>
+                    </li>
+                    <li class="nav-item bg-gradient-dark" role="presentation">
+                        <a class="nav-link mb-0 px-0 py-1 text-gradient text-primary ubuntu-bold" data-bs-toggle="tab" role="tab" data-bs-target="#users-tab-pane" aria-controls="users" aria-selected="false">
+                            Users
+                        </a>
+                    </li>
+                    <li class="nav-item bg-gradient-dark" role="presentation">
+                        <a class="nav-link mb-0 px-0 py-1 text-gradient text-primary ubuntu-bold" data-bs-toggle="tab" role="tab" data-bs-target="#jobs-tab-pane" aria-controls="jobs" aria-selected="false">
+                            Jobs
+                        </a>
+                    </li>
+                    <li class="nav-item bg-gradient-dark" role="presentation">
+                        <a class="nav-link mb-0 px-0 py-1 text-gradient text-primary ubuntu-bold" data-bs-toggle="tab" role="tab" data-bs-target="#products-tab-pane" aria-controls="products" aria-selected="false">
+                            Products
+                        </a>
+                    </li>
+                    <li class="nav-item bg-gradient-dark" role="presentation">
+                        <a class="nav-link mb-0 px-0 py-1 text-gradient text-primary ubuntu-bold" data-bs-toggle="tab" role="tab" data-bs-target="#campaigns-tab-pane" aria-controls="campaigns" aria-selected="false">
+                            Campaigns
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="customers-tab-pane" role="tabpanel" aria-labelledby="customers" tabindex="0">
+                    @await Html.PartialAsync("_Partials/_customers-list")
+                </div>
+                <div class="tab-pane fade" id="users-tab-pane" role="tabpanel" aria-labelledby="users" tabindex="0">
+                    @await Html.PartialAsync("_Partials/_users-list")
+                </div>
+                <div class="tab-pane fade" id="jobs-tab-pane" role="tabpanel" aria-labelledby="jobs" tabindex="0">
+                    @await Html.PartialAsync("_Partials/_jobs-list")
+                </div>
+                <div class="tab-pane fade" id="products-tab-pane" role="tabpanel" aria-labelledby="products" tabindex="0">
+                    @await Html.PartialAsync("_Partials/_products-list")
+                </div>
+                <div class="tab-pane fade" id="campaigns-tab-pane" role="tabpanel" aria-labelledby="campaigns" tabindex="0">
+                    @await Html.PartialAsync("_Partials/_campaigns-list")
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-6">
+            @await Html.PartialAsync("_Partials/_job-calendar")
+        </div>
+        <div class="col-12 col-md-6"></div>
+    </div>
+</div>
+
+@section Scripts {
+    <script type="text/javascript">
+        let ctx2 = document.getElementById("line-chart-gradient").getContext("2d");
+
+        let gradientStroke1 = ctx2.createLinearGradient(0, 230, 0, 50);
+
+        gradientStroke1.addColorStop(1, 'rgba(203,12,159,0.2)');
+        gradientStroke1.addColorStop(0.2, 'rgba(72,72,176,0.0)');
+        gradientStroke1.addColorStop(0, 'rgba(203,12,159,0)'); //purple colors
+
+        let gradientStroke2 = ctx2.createLinearGradient(0, 230, 0, 50);
+
+        gradientStroke2.addColorStop(1, 'rgba(20,23,39,0.2)');
+        gradientStroke2.addColorStop(0.2, 'rgba(72,72,176,0.0)');
+        gradientStroke2.addColorStop(0, 'rgba(20,23,39,0)'); //purple colors
+
+        new Chart(ctx2, {
+            type: "line",
+            data: {
+                labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+                datasets: [{
+                    label: "Mobile apps",
+                    tension: 0.4,
+                    borderWidth: 0,
+                    pointRadius: 0,
+                    borderColor: "#cb0c9f",
+                    borderWidth: 3,
+                    backgroundColor: gradientStroke1,
+                    fill: true,
+                    data: [50, 40, 300, 220, 500, 250, 400, 230, 500],
+                    maxBarThickness: 6
+
+                },
+                    {
+                        label: "Websites",
+                        tension: 0.4,
+                        borderWidth: 0,
+                        pointRadius: 0,
+                        borderColor: "#3A416F",
+                        borderWidth: 3,
+                        backgroundColor: gradientStroke2,
+                        fill: true,
+                        data: [30, 90, 40, 140, 290, 290, 340, 230, 400],
+                        maxBarThickness: 6
+                    },
+                ],
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false,
+                    }
+                },
+                interaction: {
+                    intersect: false,
+                    mode: 'index',
+                },
+                scales: {
+                    y: {
+                        grid: {
+                            drawBorder: false,
+                            display: true,
+                            drawOnChartArea: true,
+                            drawTicks: false,
+                            borderDash: [5, 5]
+                        },
+                        ticks: {
+                            display: true,
+                            padding: 10,
+                            color: '#b2b9bf',
+                            font: {
+                                size: 11,
+                                family: "Inter",
+                                style: 'normal',
+                                lineHeight: 2
+                            },
+                        }
+                    },
+                    x: {
+                        grid: {
+                            drawBorder: false,
+                            display: false,
+                            drawOnChartArea: false,
+                            drawTicks: false,
+                            borderDash: [5, 5]
+                        },
+                        ticks: {
+                            display: true,
+                            color: '#b2b9bf',
+                            padding: 10,
+                            font: {
+                                size: 11,
+                                family: "Inter",
+                                style: 'normal',
+                                lineHeight: 2
+                            },
+                        }
+                    },
+                },
+            },
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            let calendarEl = document.getElementById('job-calendar');
+            let calendar = new FullCalendar.Calendar(calendarEl, {
+                now: Date.now(),
+                scrollTime: '00:00',
+                editable: true,
+                selectable: true,
+                aspectRatio: 1.8,
+                headerToolbar: {
+                    left: 'today prev,next',
+                    center: 'title',
+                    right: 'resourceTimelineDay,resourceTimelineThreeDays,timeGridWeek,dayGridMonth,listWeek'
+                },
+                initialView: 'dayGridMonth',
+                views: {
+                    resourceTimelineThreeDays: {
+                        type: 'resourceTimeline',
+                        duration: { days: 3 },
+                        buttonText: '3 days'
+                    },
+                    dayGridMonth: {
+                        titleFormat: {year: 'numeric', month: '2-digit', day: '2-digit'}
+                    }
+                },
+                
+            });
+            calendar.render();
+        });
+    </script>
+}

@@ -1,0 +1,63 @@
+﻿@model UserCRM.Models.Orders
+
+@{
+    Layout = "_Layout";
+}
+<div class="container-fluid">
+<div class="row mt-11">
+    <div class="col-12 col-md-12 col-lg-12">
+        <div class="card shadow-lg bg-gradient-dark">
+            <div class="card-header bg-gradient-dark">
+                <h1 class="text-gradient text-primary ubuntu-bold">Customer Order(s) Details</h1>
+            </div>
+            <div class="card-body bg-gradient-dark p-3">
+                <table class="table table-borderless table-hover table-striped">
+                    <thead>
+                    <tr class="text-center">
+                        <th class="text-gradient text-primary ubuntu-bold">Order ID</th>
+                        <th class="text-gradient text-primary ubuntu-bold">Product ID</th>
+                        <th class="text-gradient text-primary ubuntu-bold">Product Image</th>
+                        <th class="text-gradient text-primary ubuntu-bold">Product Name</th>
+                        <th class="text-gradient text-primary ubuntu-bold">Order Item Qty.</th>
+                        <th class="text-gradient text-primary ubuntu-bold">Unit Price</th>
+                        <th class="text-gradient text-primary ubuntu-bold">Total Price</th>
+                        <th class="text-gradient text-primary ubuntu-bold">Product UPC</th>
+                        <th class="text-gradient text-primary ubuntu-bold">Actions</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    @foreach (var order in Model.OrdersOrderItems)
+                    {
+                        <tr class="text-center">
+                            <td class="text-white ubuntu">@order.OrderId</td>
+                            <td class="text-white ubuntu">@order.OrderItem.ProductId</td>
+                            <td class="text-white ubuntu">
+                                <div id="app" class="card-container">
+                                <card data-image="@order.OrderItem.Products.ImageUrl">
+                                    <h6 slot="header" class="text-gradient text-info ubuntu-bold">@order.OrderItem.Products.TruncateWordsThree(order.OrderItem.Products.Name)</h6>
+                                    <p slot="content" class="text-gradient text-success ubuntu-bold">@order.OrderItem.UnitPrice.ToString("C")</p>
+                                </card>
+                                </div>
+                            </td>
+                            <td class="text-white ubuntu">@order.OrderItem.Products.Name</td>
+                            <td class="text-white ubuntu">@order.OrderItem.Quantity</td>
+                            <td class="text-white ubuntu">@order.OrderItem.UnitPrice.ToString("C")</td>
+                            <td class="text-white ubuntu">@order.OrderItem.TotalPrice.ToString("C")</td>
+                            <td class="text-white ubuntu">@order.OrderItem.Products.UPC</td>
+                            <td>
+                                @Html.ActionLink("", "ProductDetails", "Dashboard", new {id = order.OrderItem.Products.ProductId}, new {@class="m-3 btn-tooltip fa-solid fa-list text-gradient text-info", title=$"View {order.OrderItem.Products.TruncateWordsThree(order.OrderItem.Products.Name)}"})
+                            </td>
+                        </tr>
+                    }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+@section Scripts {
+    <script type="text/javascript">
+        
+    </script>
+}

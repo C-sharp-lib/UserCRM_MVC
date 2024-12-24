@@ -1,0 +1,86 @@
+﻿@{}
+
+    <div class="card shadow-lg p-3 bg-gradient-dark mb-3">
+      <div class="card-header bg-gradient-dark text-gradient text-primary">
+        <h3 class="ubuntu-bold">Update User</h3>
+      </div>
+      <div class="card-body p-3">
+        <form asp-area="Admin" asp-controller="Dashboard" asp-action="ProcessUpdateUser" asp-route-id="@Model.Id" method="post" enctype="multipart/form-data">
+          <div class="row">
+            <div class="col-12">
+              <h6 class="text-gradient text-info ubuntu-bold">Image Preview</h6>
+              <img id="previewImage" src="" alt="Image Preview" style="max-width: 350px; display: none; margin-top: 10px; height: 400px" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-8">
+              <div class="form-group">
+                <input type="file" name="imageUrl" id="ImageUrl"  value="@Model.ImageUrl" style="display: none;" accept="image/*">
+                <label for="ImageUrl" class="btn bg-gradient-dark custom-file-button">Choose File</label>
+                <span id="fileName" class="file-name text-warning ubuntu-bold">No file selected</span>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="form-check">
+                <label for="isActive" class="ubuntu-bold text-gradient text-primary form-check-label">Is Active</label>
+                <input type="checkbox" id="isActive" class="form-check-input" name="isActive">
+                </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="form-group">
+                <label for="dob" class="ubuntu-bold text-gradient text-primary">DOB</label>
+                <input type="date" id="dob" name="dob" value="@Model.DOB" class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold">
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="form-group">
+                <label for="HireDate" class="ubuntu-bold text-gradient text-primary">Hire Date</label>
+                <input type="date" id="HireDate" name="hireDate" value="@Model.HireDate" class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold">
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="form-group">
+                <label for="UserName" class="ubuntu-bold text-gradient text-primary">UserName</label>
+                <input type="text" id="UserName" name="userName" value="@Model.UserName" class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold">
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="form-group">
+                <label for="Email" class="ubuntu-bold text-gradient text-primary">Email</label>
+                <input type="email" id="Email" name="email" value="@Model.Email" class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-4">
+              <div class="form-group">
+                <label for="FirstName" class="ubuntu-bold text-gradient text-primary">First Name</label>
+                <input type="text" name="firstName" value="@Model.FirstName" id="FirstName" class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold">
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4">
+              <div class="form-group">
+                <label for="MiddleName" class="ubuntu-bold text-gradient text-primary">Middle Name</label>
+                <input type="text" name="middleName" value="@Model.MiddleName" id="MiddleName" class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold">
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4">
+              <div class="form-group">
+                <label for="LastName" class="ubuntu-bold text-gradient text-primary">Last Name</label>
+                <input type="text" name="lastName" value="@Model.LastName" id="LastName" class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold">
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+
+          </div>
+          <input type="submit" class="btn bg-gradient-primary" value="Update User"/>
+        </form>
+      </div>
+    </div>

@@ -1,0 +1,2289 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\UserCRM.bundle.scp.css",
+      "PackagePath": "staticwebassets\\UserCRM.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\Uploads\\users\\debbie-kellington.png",
+      "PackagePath": "staticwebassets\\Uploads\\users\\debbie-kellington.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\Uploads\\users\\kevin-stradtman.png",
+      "PackagePath": "staticwebassets\\Uploads\\users\\kevin-stradtman.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\Uploads\\users\\patrick-smith.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\users\\patrick-smith.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\Uploads\\users\\user.png",
+      "PackagePath": "staticwebassets\\Uploads\\users\\user.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\css\\nucleo-icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\nucleo-icons.css"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\css\\nucleo-svg.css",
+      "PackagePath": "staticwebassets\\assets\\css\\nucleo-svg.css"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\css\\soft-design-system-pro.css",
+      "PackagePath": "staticwebassets\\assets\\css\\soft-design-system-pro.css"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\css\\soft-design-system-pro.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\soft-design-system-pro.css.map"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\css\\soft-design-system-pro.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\soft-design-system-pro.min.css"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\fonts\\nucleo-icons.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.eot"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\fonts\\nucleo-icons.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\fonts\\nucleo-icons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.ttf"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\fonts\\nucleo-icons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.woff"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\fonts\\nucleo-icons.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.woff2"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\fonts\\nucleo.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.eot"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\fonts\\nucleo.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.ttf"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\fonts\\nucleo.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.woff"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\fonts\\nucleo.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.woff2"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\Tim.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Tim.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\alesia.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\alesia.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\anastasia.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\anastasia.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\annie-spratt.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\annie-spratt.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\apple-icon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\apple-icon.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\audio\\example.mp3",
+      "PackagePath": "staticwebassets\\assets\\img\\audio\\example.mp3"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\automotive\\amg-gt.png",
+      "PackagePath": "staticwebassets\\assets\\img\\automotive\\amg-gt.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\automotive\\cls.png",
+      "PackagePath": "staticwebassets\\assets\\img\\automotive\\cls.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\automotive\\g-amg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\automotive\\g-amg.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\automotive\\g-grey.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\automotive\\g-grey.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\automotive\\glc.png",
+      "PackagePath": "staticwebassets\\assets\\img\\automotive\\glc.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\automotive\\s-maybach.png",
+      "PackagePath": "staticwebassets\\assets\\img\\automotive\\s-maybach.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\blog7-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog7-1.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\blog7-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog7-2.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\blog7-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog7-3.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\brooke.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\brooke.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\bruce-mars.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bruce-mars.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\card-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\card-2.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\card-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\card-3.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\charles.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\charles.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\creative-tim-white-slim2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\creative-tim-white-slim2.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\curved-images\\curved-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved-10.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\curved-images\\curved-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved-11.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\curved-images\\curved-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved-6.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\curved-images\\curved-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved-8.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\curved-images\\curved1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved1.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\curved-images\\curved10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved10.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\curved-images\\curved11-small.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved11-small.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\curved-images\\curved11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved11.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\curved-images\\curved12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved12.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\curved-images\\curved13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved13.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\curved-images\\curved14.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved14.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\curved-images\\curved19.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved19.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\curved-images\\curved2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved2.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\curved-images\\curved21.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved21.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\curved-images\\curved3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved3.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\curved-images\\curved3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved3.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\curved-images\\curved4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved4.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\curved-images\\curved5-small.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved5-small.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\curved-images\\curved5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved5.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\curved-images\\curved6-small.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved6-small.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\curved-images\\curved6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved6.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\curved-images\\curved7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved7.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\curved-images\\curved8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved8.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\curved-images\\curved9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved9.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\default-avatar.png",
+      "PackagePath": "staticwebassets\\assets\\img\\default-avatar.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\down-arrow-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\down-arrow-dark.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\down-arrow-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\down-arrow-white.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\down-arrow.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\down-arrow.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\dusty-blue.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\dusty-blue.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\github.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\github.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\google.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\google.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\gucci.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gucci.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\archive-drawer.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\archive-drawer.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\basket.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\basket.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\box-3d-50.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\box-3d-50.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\briefcase-24.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\briefcase-24.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\bullet-list-67.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\bullet-list-67.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\chart-pie-35.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\chart-pie-35.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\credit-card.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\credit-card.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\customer-support.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\customer-support.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\delivery-fast.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\delivery-fast.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\document.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\document.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\map-big.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\map-big.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\megaphone.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\megaphone.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\office.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\office.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\settings.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\settings.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\shop.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\shop.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\sound-wave.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\sound-wave.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\spaceship.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\spaceship.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\switches.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\switches.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\time-alarm.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\time-alarm.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\ungroup.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\ungroup.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\illustrations\\bag.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\bag.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\illustrations\\card-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\card-1.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\illustrations\\card-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\card-2.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\illustrations\\card.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\card.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\illustrations\\chat.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\chat.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\illustrations\\cloud-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\cloud-2.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\illustrations\\cloud.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\cloud.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\illustrations\\error-404.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\error-404.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\illustrations\\error-500.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\error-500.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\illustrations\\folder.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\folder.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\illustrations\\illustration-paper.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\illustration-paper.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\illustrations\\iphone-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\iphone-1.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\illustrations\\iphone-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\iphone-2.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\illustrations\\iphone-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\iphone-3.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\illustrations\\iphone-4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\iphone-4.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\illustrations\\lock.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\lock.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\illustrations\\man-cloud.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\man-cloud.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\illustrations\\man-rocket.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\man-rocket.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\illustrations\\rocket-white.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\rocket-white.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\illustrations\\settings.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\settings.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\illustrations\\sign-up.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\sign-up.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\image_placeholder.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\image_placeholder.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\inlytics.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\inlytics.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\iphone.png",
+      "PackagePath": "staticwebassets\\assets\\img\\iphone.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\iphone.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\iphone.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\ivana-square.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\ivana-square.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\ivana-squares.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\ivana-squares.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\ivana.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\ivana.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\ivancik.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\ivancik.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\jeshoots.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\jeshoots.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\jordan.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\jordan.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\kal-visuals-square.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\kal-visuals-square.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\kal-visuals.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\kal-visuals.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\app-store-button.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\app-store-button.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\appstore.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\appstore.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\appstore.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\appstore.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\google-play-button.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\google-play-button.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\google-play.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\google-play.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\google-play.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\google-play.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-apple.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-apple.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-behance.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-behance.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-coinbase.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-coinbase.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-digitalocean.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-digitalocean.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-facebook.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-facebook.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-google.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-google.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-mailchimp.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-mailchimp.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-nasa.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-nasa.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-netflix.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-netflix.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-pinterest.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-pinterest.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-spotify.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-spotify.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-vodafone.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-vodafone.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\medium-logos\\logo-apple.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\medium-logos\\logo-apple.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\medium-logos\\logo-behance.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\medium-logos\\logo-behance.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\medium-logos\\logo-coinbase.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\medium-logos\\logo-coinbase.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\medium-logos\\logo-digital-ocean.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\medium-logos\\logo-digital-ocean.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\medium-logos\\logo-facebook.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\medium-logos\\logo-facebook.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\medium-logos\\logo-google.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\medium-logos\\logo-google.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\medium-logos\\logo-mailchimp.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\medium-logos\\logo-mailchimp.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\medium-logos\\logo-nasa.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\medium-logos\\logo-nasa.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\medium-logos\\logo-netflix.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\medium-logos\\logo-netflix.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\medium-logos\\logo-pinterest.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\medium-logos\\logo-pinterest.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\medium-logos\\logo-spotify.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\medium-logos\\logo-spotify.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\medium-logos\\logo-vodafone.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\medium-logos\\logo-vodafone.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\small-logos\\logo-apple.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-apple.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\small-logos\\logo-asana.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-asana.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\small-logos\\logo-atlassian.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-atlassian.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\small-logos\\logo-facebook.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-facebook.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\small-logos\\logo-google-drive.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-google-drive.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\small-logos\\logo-google.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-google.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\small-logos\\logo-invision.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-invision.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\small-logos\\logo-jira.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-jira.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\small-logos\\logo-shopify.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-shopify.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\small-logos\\logo-slack.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-slack.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\small-logos\\logo-spotify.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-spotify.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\small-logos\\logo-weave.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-weave.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\small-logos\\logo-webdev.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-webdev.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\small-logos\\logo-xd.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-xd.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\white-logos\\logo-apple-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\white-logos\\logo-apple-white.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\white-logos\\logo-behance-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\white-logos\\logo-behance-white.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\white-logos\\logo-coinbase-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\white-logos\\logo-coinbase-white.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\white-logos\\logo-digitalocean-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\white-logos\\logo-digitalocean-white.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\white-logos\\logo-facebook-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\white-logos\\logo-facebook-white.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\white-logos\\logo-google-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\white-logos\\logo-google-white.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\white-logos\\logo-mailchimp-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\white-logos\\logo-mailchimp-white.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\white-logos\\logo-nasa-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\white-logos\\logo-nasa-white.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\white-logos\\logo-netflix-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\white-logos\\logo-netflix-white.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\white-logos\\logo-pinterest-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\white-logos\\logo-pinterest-white.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\white-logos\\logo-spotify-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\white-logos\\logo-spotify-white.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\logos\\white-logos\\logo-vodafone-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\white-logos\\logo-vodafone-white.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\macbook.png",
+      "PackagePath": "staticwebassets\\assets\\img\\macbook.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\marie.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\marie.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\meeting.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\meeting.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\mimi-thian.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\mimi-thian.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\modal-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\modal-1.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\nastuh.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\nastuh.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\office-1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\office-1.jpeg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\office-2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\office-2.jpeg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\office-dark.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\office-dark.jpeg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\pattern-points.png",
+      "PackagePath": "staticwebassets\\assets\\img\\pattern-points.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\phones.png",
+      "PackagePath": "staticwebassets\\assets\\img\\phones.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\placeholder.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\placeholder.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\podcast\\episode-1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\podcast\\episode-1.jpeg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\podcast\\episode-2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\podcast\\episode-2.jpeg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\podcast\\episode-3.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\podcast\\episode-3.jpeg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\podcast\\header-image.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\podcast\\header-image.jpeg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\podcast\\podcast-1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\podcast\\podcast-1.jpeg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\podcast\\podcast-2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\podcast\\podcast-2.jpeg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\podcast\\podcast-3.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\podcast\\podcast-3.jpeg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\podcast\\podcast-4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\podcast\\podcast-4.jpeg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\shapes\\pattern-lines.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\pattern-lines.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\shapes\\shape-1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\shape-1.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\shapes\\shape-2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\shape-2.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\shapes\\shape-3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\shape-3.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\shapes\\wave-down.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\wave-down.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\shapes\\wave-up.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\wave-up.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\shapes\\waves-gray.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\waves-gray.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\shapes\\waves-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\waves-white.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\t-shirt.png",
+      "PackagePath": "staticwebassets\\assets\\img\\t-shirt.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-1.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-2.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-3.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-4.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\team-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-5.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\toa-heftiba.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\toa-heftiba.jpg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\tshirt.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tshirt.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\img\\wave-1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\wave-1.svg"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\js\\core\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\core\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\js\\plugins\\anime.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\anime.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\js\\plugins\\chartjs.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\chartjs.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\js\\plugins\\choices.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\choices.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\js\\plugins\\countup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\countup.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\js\\plugins\\flatpickr.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\flatpickr.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\js\\plugins\\glidejs.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\glidejs.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\js\\plugins\\highlight.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\highlight.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\js\\plugins\\moment.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\moment.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\js\\plugins\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\nouislider.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\js\\plugins\\parallax.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\parallax.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\js\\plugins\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\js\\plugins\\presentation-page\\rellax.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\presentation-page\\rellax.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\js\\plugins\\prism.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\prism.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\js\\plugins\\rellax.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\rellax.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\js\\plugins\\smooth-scroll.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\smooth-scroll.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\js\\plugins\\tilt.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tilt.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\js\\plugins\\typedjs.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\typedjs.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\js\\soft-design-system-pro.js",
+      "PackagePath": "staticwebassets\\assets\\js\\soft-design-system-pro.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\js\\soft-design-system-pro.js.map",
+      "PackagePath": "staticwebassets\\assets\\js\\soft-design-system-pro.js.map"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\js\\soft-design-system-pro.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\soft-design-system-pro.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_accordion.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_accordion.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_avatars.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_avatars.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_backgrounds.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_backgrounds.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_breadcrumbs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_breadcrumbs.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_cards-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_cards-extend.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_cards.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_cards.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_components.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_components.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_dark-version.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_dark-version.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_dropdown-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_dropdown-extend.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_dropup.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_dropup.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_floating-elements.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_floating-elements.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_footer.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_footer.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_gradients.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_header.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_header.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_info-areas.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_info-areas.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_list-check.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_list-check.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_misc-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_misc-extend.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_misc.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_misc.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_nav.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_nav.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_navbar-vertical.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_navbar-vertical.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_popovers.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_popovers.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_progress.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_progress.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_rtl-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_rtl-extend.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_rtl.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_rtl.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_social-buttons.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_tables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_tables.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_tilt.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_tilt.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_timeline.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_timeline.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_tooltips.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_tooltips.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_typography.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_typography.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_utilities-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_utilities-extend.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\badges\\_badge-circle.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\badges\\_badge-circle.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\badges\\_badge-dot.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\badges\\_badge-dot.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\badges\\_badge-floating.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\badges\\_badge-floating.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\badges\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\badges\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_accordion.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_accordion.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_containers.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_containers.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_helpers.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_helpers.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_maps.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_maps.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_offcanvas.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_placeholders.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_variables-dark.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_variables-dark.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_labels.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_validation.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_focus-ring.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_focus-ring.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_icon-link.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_icon-link.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_position.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_banner.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_banner.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_color-mode.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_color-mode.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_container.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\tests\\jasmine.js",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\tests\\jasmine.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\tests\\mixins\\_auto-import-of-variables-dark.test.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\tests\\mixins\\_auto-import-of-variables-dark.test.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\tests\\mixins\\_color-modes.test.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\tests\\mixins\\_color-modes.test.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\tests\\mixins\\_media-query-color-mode-full.test.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\tests\\mixins\\_media-query-color-mode-full.test.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\tests\\mixins\\_utilities.test.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\tests\\mixins\\_utilities.test.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\tests\\sass-true\\register.js",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\tests\\sass-true\\register.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\tests\\sass-true\\runner.js",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\tests\\sass-true\\runner.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\tests\\utilities\\_api.test.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\tests\\utilities\\_api.test.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\utilities\\_api.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\cards\\card-background.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\cards\\card-background.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\cards\\card-blog.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\cards\\card-blog.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\cards\\card-horizontal.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\cards\\card-horizontal.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\cards\\card-pricing.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\cards\\card-pricing.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\cards\\card-profile.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\cards\\card-profile.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\custom\\_styles.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\custom\\_styles.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\custom\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\custom\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\forms\\_form-switch.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\forms\\_form-switch.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\forms\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\forms\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\forms\\_inputs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\forms\\_inputs.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\forms\\_labels.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\mixins\\_colored-shadows.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\mixins\\_colored-shadows.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\mixins\\_container.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\mixins\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\mixins\\_social-buttons.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\mixins\\mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\mixins\\mixins.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\free\\_flatpickr.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\free\\_flatpickr.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\free\\_nouislider.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\free\\_nouislider.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\free\\_perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\free\\_perfect-scrollbar.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\free\\_prism.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\free\\_prism.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\free\\plugins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\free\\plugins.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_carousel-slick.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_carousel-slick.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_choices.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_choices.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_datatable-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_datatable-extend.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_datatable.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_datatable.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_dragula.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_dragula.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_dropzone.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_dropzone.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_fullcalendar-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_fullcalendar-extend.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_fullcalendar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_fullcalendar.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_glidejs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_glidejs.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_green-audio-player.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_green-audio-player.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_highlight.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_highlight.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_kanban.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_kanban.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_leaflet.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_leaflet.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_list-check.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_list-check.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_photoswipe.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_photoswipe.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_quill.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_quill.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_rating-widget.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_rating-widget.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_sweetalert2-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_sweetalert2-extend.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_sweetalert2.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_sweetalert2.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\multi-step.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\multi-step.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\plugins-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\plugins-extend.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\theme-pro.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\theme-pro.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\theme.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\theme.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_animations.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_animations.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_avatars.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_avatars.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_cards-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_cards-extend.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_cards.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_cards.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_choices.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_choices.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_dark-version.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_dark-version.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_dropdowns.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_dropdowns.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_form-switch.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_form-switch.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_full-calendar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_full-calendar.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_header.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_header.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_info-areas.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_info-areas.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_misc-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_misc-extend.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_misc.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_misc.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_navbar-vertical.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_navbar-vertical.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_rtl.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_rtl.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_social-buttons.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_table.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_table.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_timeline.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_timeline.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_utilities-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_utilities-extend.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_virtual-reality.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_virtual-reality.scss"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\img\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\js\\card-vue.js",
+      "PackagePath": "staticwebassets\\js\\card-vue.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\js\\chartjs.min.js",
+      "PackagePath": "staticwebassets\\js\\chartjs.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\2fa-security.html",
+      "PackagePath": "staticwebassets\\pages\\2fa-security.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\about-us.html",
+      "PackagePath": "staticwebassets\\pages\\about-us.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\automotive.html",
+      "PackagePath": "staticwebassets\\pages\\automotive.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\blog\\author.html",
+      "PackagePath": "staticwebassets\\pages\\blog\\author.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\blog\\blog-posts.html",
+      "PackagePath": "staticwebassets\\pages\\blog\\blog-posts.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\blog\\categories.html",
+      "PackagePath": "staticwebassets\\pages\\blog\\categories.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\blog\\single-article.html",
+      "PackagePath": "staticwebassets\\pages\\blog\\single-article.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\career.html",
+      "PackagePath": "staticwebassets\\pages\\career.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\case-study.html",
+      "PackagePath": "staticwebassets\\pages\\case-study.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\coming-soon.html",
+      "PackagePath": "staticwebassets\\pages\\coming-soon.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\company.html",
+      "PackagePath": "staticwebassets\\pages\\company.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\contact-us-simple.html",
+      "PackagePath": "staticwebassets\\pages\\contact-us-simple.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\contact-us.html",
+      "PackagePath": "staticwebassets\\pages\\contact-us.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\coworking.html",
+      "PackagePath": "staticwebassets\\pages\\coworking.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\desktop-app.html",
+      "PackagePath": "staticwebassets\\pages\\desktop-app.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\digital-agency.html",
+      "PackagePath": "staticwebassets\\pages\\digital-agency.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\error-404.html",
+      "PackagePath": "staticwebassets\\pages\\error-404.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\error-500.html",
+      "PackagePath": "staticwebassets\\pages\\error-500.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\error.html",
+      "PackagePath": "staticwebassets\\pages\\error.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\faq.html",
+      "PackagePath": "staticwebassets\\pages\\faq.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\help-center-basic.html",
+      "PackagePath": "staticwebassets\\pages\\help-center-basic.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\help-center.html",
+      "PackagePath": "staticwebassets\\pages\\help-center.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\mobile-app.html",
+      "PackagePath": "staticwebassets\\pages\\mobile-app.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\podcast.html",
+      "PackagePath": "staticwebassets\\pages\\podcast.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\pricing.html",
+      "PackagePath": "staticwebassets\\pages\\pricing.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\privacy.html",
+      "PackagePath": "staticwebassets\\pages\\privacy.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\rental.html",
+      "PackagePath": "staticwebassets\\pages\\rental.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\reset\\reset-basic.html",
+      "PackagePath": "staticwebassets\\pages\\reset\\reset-basic.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\reset\\reset-cover.html",
+      "PackagePath": "staticwebassets\\pages\\reset\\reset-cover.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\reset\\reset-illustration.html",
+      "PackagePath": "staticwebassets\\pages\\reset\\reset-illustration.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\sign-in\\sign-in-basic.html",
+      "PackagePath": "staticwebassets\\pages\\sign-in\\sign-in-basic.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\sign-in\\sign-in-cover.html",
+      "PackagePath": "staticwebassets\\pages\\sign-in\\sign-in-cover.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\sign-in\\sign-in-illustration.html",
+      "PackagePath": "staticwebassets\\pages\\sign-in\\sign-in-illustration.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\sign-in\\sign-in-simple.html",
+      "PackagePath": "staticwebassets\\pages\\sign-in\\sign-in-simple.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\sign-up\\sign-up-basic.html",
+      "PackagePath": "staticwebassets\\pages\\sign-up\\sign-up-basic.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\sign-up\\sign-up-cover.html",
+      "PackagePath": "staticwebassets\\pages\\sign-up\\sign-up-cover.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\sign-up\\sign-up-illustration.html",
+      "PackagePath": "staticwebassets\\pages\\sign-up\\sign-up-illustration.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\sign-up\\sign-up-simple.html",
+      "PackagePath": "staticwebassets\\pages\\sign-up\\sign-up-simple.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\terms.html",
+      "PackagePath": "staticwebassets\\pages\\terms.html"
+    },
+    {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\pages\\work-with-us.html",
+      "PackagePath": "staticwebassets\\pages\\work-with-us.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.UserCRM.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.UserCRM.props",
+      "PackagePath": "build\\UserCRM.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.UserCRM.props",
+      "PackagePath": "buildMultiTargeting\\UserCRM.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.UserCRM.props",
+      "PackagePath": "buildTransitive\\UserCRM.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
