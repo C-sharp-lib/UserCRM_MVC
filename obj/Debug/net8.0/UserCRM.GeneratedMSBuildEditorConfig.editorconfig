@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Development\UserCRM\UserCRM\UserCRM
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Development/UserCRM/UserCRM/UserCRM/Areas/Admin/Views/Dashboard/AddUserPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaGJvYXJkXEFkZFVzZXJQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Development/UserCRM/UserCRM/UserCRM/Areas/Admin/Views/Dashboard/CampaignUserTaskDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaGJvYXJkXENhbXBhaWduVXNlclRhc2tEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

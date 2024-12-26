@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using UserCRM.DTO;
 using UserCRM.Models;
@@ -83,6 +85,97 @@ public class DashboardController : Controller
         return View(theUser);
     }
 
+    [HttpGet("AddUserPage")]
+    public IActionResult AddUserPage()
+    {
+        if (ActiveUser == null)
+        {
+            return RedirectToAction("LoginPage", "Account");
+        }
+        ViewBag.user = ActiveUser;
+        return View();
+    }
+
+    [HttpPost("AddUser")]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> AddUser(UserDTO user)
+    {
+        if (ActiveUser == null)
+        {
+            return RedirectToAction("LoginPage", "Account");
+        }
+
+        try
+        {
+            if (ModelState.IsValid)
+            {
+                string uniqueFileName3 = null;
+                if (user.ImageUrl != null && user.ImageUrl.Length > 0)
+                {
+                    // Validate the file (optional but recommended)
+                    var permittedExtensions3 = new[] { ".jpg", ".jpeg", ".png", ".gif" };
+                    var extension3 = Path.GetExtension(user.ImageUrl.FileName).ToLowerInvariant();
+
+                    if (string.IsNullOrEmpty(extension3) || !permittedExtensions3.Contains(extension3))
+                    {
+                        ModelState.AddModelError("ImageUrl", "Invalid file type. Only images are allowed.");
+                        return View(nameof(UserUpdatePage));
+                    }
+
+                    // Create a unique filename to prevent overwriting
+                    string fileName3 = Path.GetFileNameWithoutExtension(user.ImageUrl.FileName);
+                    uniqueFileName3 = $"{fileName3}_{Guid.NewGuid()}{extension3}";
+
+                    // Combine the path with the Uploads folder
+                    string uploadsFolder3 = Path.Combine(_webenv.WebRootPath, "Uploads");
+
+                    // Ensure the Uploads folder exists
+                    if (!Directory.Exists(uploadsFolder3))
+                    {
+                        Directory.CreateDirectory(uploadsFolder3);
+                    }
+
+                    // Full path to save the file
+                    string filePath = Path.Combine(uploadsFolder3, uniqueFileName3);
+
+                    // Save the file to the server
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await user.ImageUrl.CopyToAsync(fileStream);
+                    }
+                }
+
+                PasswordHasher<UserDTO> Hasher = new PasswordHasher<UserDTO>();
+                Users users = new Users
+                {
+                    FirstName = user.FirstName,
+                    MiddleName = user.MiddleName,
+                    LastName = user.LastName,
+                    Email = user.Email,
+                    UserName = user.UserName,
+                    Password = Hasher.HashPassword(user, user.Password),
+                    Phone = user.Phone,
+                    Role = user.Role,
+                    DOB = user.DOB,
+                    ImageUrl = uniqueFileName3 != null ? Path.Combine("Uploads", uniqueFileName3) : null,
+                    HireDate = user.HireDate,
+                };
+                _context.Users.Add(users);
+                await _context.SaveChangesAsync();
+                return RedirectToAction("Index", "Dashboard", new { area = "Admin" });
+            }
+        }
+        catch (SqlException ex)
+        {
+            Console.WriteLine($"SQLEXCEPTION: {ex.Message}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+        return RedirectToAction("Index", "Dashboard", new { area = "Admin" });
+    }
+
     [HttpGet("UserUpdatePage/{id}")]
     public async Task<IActionResult> UserUpdatePage(int id)
     {
@@ -102,7 +195,7 @@ public class DashboardController : Controller
 
     [HttpPost("ProcessUpdateUser/{id}")]
     public async Task<IActionResult> ProcessUpdateUser(int id, string firstname, string middlename, 
-        string lastname, string email, string username, bool? isActive, DateTime? dob, DateTime? hiredate, IFormFile? imageUrl)
+        string lastname, string email, string username, DateTime dob, DateTime hiredate, IFormFile? imageUrl)
     {
         if (ActiveUser == null)
         {
@@ -141,7 +234,7 @@ public class DashboardController : Controller
 
                     if (string.IsNullOrEmpty(extension3) || !permittedExtensions3.Contains(extension3))
                     {
-                        ModelState.AddModelError("ImageOne", "Invalid file type. Only images are allowed.");
+                        ModelState.AddModelError("imageUrl", "Invalid file type. Only images are allowed.");
                         return View(nameof(UserUpdatePage));
                     }
 
@@ -176,7 +269,6 @@ public class DashboardController : Controller
                 userToUpdate.UserName = username;
                 userToUpdate.DOB = dob;
                 userToUpdate.HireDate = hiredate;
-                userToUpdate.IsActive = isActive;
                 _context.Users.Update(userToUpdate);
                 await _context.SaveChangesAsync();
                 ViewBag.user = ActiveUser;

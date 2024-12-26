@@ -13,7 +13,6 @@
                 <th class="text-gradient text-primary ubuntu-bold">UserName</th>
                 <th class="text-gradient text-primary ubuntu-bold">Email</th>
                 <th class="text-gradient text-primary ubuntu-bold">Name</th>
-                <th class="text-gradient text-primary ubuntu-bold">Is Active</th>
                 <th class="text-gradient text-primary ubuntu-bold">Actions</th>
             </tr>
             </thead>
@@ -27,7 +26,6 @@
                         <td class="text-white ubuntu">@user.UserName</td>
                         <td class="text-white ubuntu">@user.Email</td>
                         <td class="text-white ubuntu">@user.FirstName @user.LastName</td>
-                        <td class="text-white ubuntu">@user.IsActive</td>
                         <td>
                             @Html.ActionLink("", "UserDetails", "Dashboard", new {id = user.Id}, new {@class="m-3 btn-tooltip fa-solid fa-list text-gradient text-info", title=$"View {user.FirstName}'s Profile"})
                             @Html.ActionLink("", "UserUpdatePage", "Dashboard", new {id = user.Id}, new {@class="m-3 btn-tooltip fa-regular fa-pen-to-square text-gradient text-primary", title=$"Edit {user.FirstName}'s Profile"})

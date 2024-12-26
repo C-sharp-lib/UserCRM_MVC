@@ -5,24 +5,55 @@ using UserCRM.Models;
 
 namespace UserCRM.DTO
 {
-    public class UserDTO : Users
+    public class UserDTO
     {
-        [NotMapped]
+        [Required]
+        [DataType(DataType.Text)]
         public string FirstName { get; set; }
-        [NotMapped]
-        public string MiddleName { get; set; }
-        [NotMapped]
+        [Required]
+        [DataType(DataType.Text)]
+        public string MiddleName {  get; set; }
+        [Required]
+        [DataType(DataType.Text)]
         public string LastName { get; set; }
+
         [DataType(DataType.Date)]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:MM/dd/yyyy}")]
-        public DateTime DOB { get; set; }
-        
-        public bool IsActive { get; set; } = true;
+        [Required]
+        public DateTime? DOB { get; set; }
         [DataType(DataType.Date)]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:MM/dd/yyyy}")]
-        public DateTime HireDate { get; set; }
-        public string UserName { get; set; }
+        [Required]
+        public DateTime? HireDate { get; set; }
+        [Required]
+        public IFormFile? ImageUrl { get; set; }
+        [Required]
+        [DataType(DataType.Text)]
+        public string? Role { get; set; }
+        [Required]
+        [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
-        public IFormFile ImageUrl { get; set; }
+        [Required]
+        [DataType(DataType.Text)]
+        public string UserName { get; set; }
+        [Required]
+        [DataType(DataType.Password)]
+        
+        public string Password { get; set; }
+        [Required]
+        [DataType(DataType.Password)]
+        [Compare("Password")]
+        public string ConfirmPassword { get; set; }
+        [Required]
+        [DataType(DataType.PhoneNumber)]
+        public string Phone { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
+
+        public UserDTO()
+        {
+            CreatedAt = DateTime.Now;
+            UpdatedAt = DateTime.Now;
+        }
     }
 }

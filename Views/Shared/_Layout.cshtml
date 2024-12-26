@@ -58,6 +58,7 @@
                             </a>
                             <ul class="dropdown-menu bg-gradient-dark" aria-labelledby="dropdownAdmin">
                                 <li><a class="dropdown-item ubuntu-bold" asp-action="Index" asp-controller="Dashboard" asp-area="Admin">Admin Home</a></li>
+                                <li><a class="dropdown-item ubuntu-bold" asp-action="AddUserPage" asp-controller="Dashboard" asp-area="Admin">Add User</a></li>
                             </ul>
                         </div>
                     }
@@ -67,13 +68,13 @@
     </div>
 </nav>
 </div>
-<div class="container-fluid">
+<div class="container-fluid mb-5">
     <main role="main" class="pb-3">
         @RenderBody()
     </main>
 </div>
 
-<footer class="footer pt-5 mt-5">
+<footer class="footer pt-5 mt-11">
     <hr class="horizontal dark mb-5">
     <div class="container">
         <div class=" row">
