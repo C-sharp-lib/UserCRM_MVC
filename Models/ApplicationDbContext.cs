@@ -48,6 +48,7 @@ namespace UserCRM.Models
                     .SetBasePath(Directory.GetCurrentDirectory())
                     .AddJsonFile("appsettings.json")
                     .Build();
+                optionsBuilder.EnableDetailedErrors();
                 optionsBuilder.ConfigureWarnings(static warnings =>
                 {
                     warnings.Ignore(CoreEventId.ContextDisposed);

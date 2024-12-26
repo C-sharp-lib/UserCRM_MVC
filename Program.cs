@@ -38,11 +38,6 @@ app.UseRouting();
 
 app.UseAuthorization();
 app.UseHttpsRedirection();
-app.UseStaticFiles(new StaticFileOptions
-{
-    FileProvider = new PhysicalFileProvider(Path.Combine(builder.Environment.ContentRootPath, "Areas", "Admin", "wwwroot")),
-    RequestPath = "/Admin"
-});
 app.UseSession();
 app.UseStaticFiles();
 app.MapAreaControllerRoute(

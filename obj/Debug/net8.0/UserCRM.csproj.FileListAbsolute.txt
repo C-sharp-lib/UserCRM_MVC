@@ -141,3 +141,4 @@ D:\Development\UserCRM\UserCRM\UserCRM\obj\Debug\net8.0\refint\UserCRM.dll
 D:\Development\UserCRM\UserCRM\UserCRM\obj\Debug\net8.0\UserCRM.pdb
 D:\Development\UserCRM\UserCRM\UserCRM\obj\Debug\net8.0\UserCRM.genruntimeconfig.cache
 D:\Development\UserCRM\UserCRM\UserCRM\obj\Debug\net8.0\ref\UserCRM.dll
+D:\Development\UserCRM\UserCRM\UserCRM\obj\Debug\net8.0\UserCRM.sourcelink.json

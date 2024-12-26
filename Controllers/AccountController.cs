@@ -3,6 +3,7 @@ using UserCRM.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace UserCRM.Controllers
@@ -39,9 +40,9 @@ namespace UserCRM.Controllers
         }
          [HttpPost("LoginUser")]
         [ValidateAntiForgeryToken]
-        public IActionResult LoginUser(LoginDTO login)
+        public async Task<IActionResult> LoginUser(LoginDTO login)
         {
-            var user = _context.Users.Where(u => u.Email == login.Email).SingleOrDefault();
+            var user = await _context.Users.SingleOrDefaultAsync(u => u.Email == login.Email);
             if (user == null)
             {
                 ModelState.AddModelError("", "Invalid login attempt.");
@@ -63,11 +64,10 @@ namespace UserCRM.Controllers
         }
         [HttpPost("RegisterUser")]
         [ValidateAntiForgeryToken]
-        public IActionResult RegisterUser(RegisterDTO newuser)
+        public async Task<IActionResult> RegisterUser(RegisterDTO newuser)
         {
-            Users CheckEmail = _context.Users
-                .Where(u => u.Email == newuser.Email)
-                .SingleOrDefault();
+            Users CheckEmail = await _context.Users
+                .SingleOrDefaultAsync(u => u.Email == newuser.Email);
 
             if (CheckEmail != null)
             {
@@ -86,8 +86,8 @@ namespace UserCRM.Controllers
                     UserName = newuser.UserName,
                     Password = Hasher.HashPassword(newuser, newuser.Password)
                 };
-                _context.Add(newUser);
-                _context.SaveChanges();
+                _context.Users.Add(newUser);
+                await _context.SaveChangesAsync();
                 return RedirectToAction("LoginPage", "Account");
             }
             else

@@ -5,20 +5,24 @@ using UserCRM.Models;
 
 namespace UserCRM.DTO
 {
-    public class UserDTO
+    public class UserDTO : Users
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [NotMapped]
-        public int Id { get; set; }
-        public string? FirstName { get; set; }
-        public string? MiddleName { get; set; }
-        public string? LastName { get; set; }
-        public DateTime? DOB { get; set; }
-        public bool? IsActive { get; set; } = true;
-        public DateTime? HireDate { get; set; }
+        public string FirstName { get; set; }
+        [NotMapped]
+        public string MiddleName { get; set; }
+        [NotMapped]
+        public string LastName { get; set; }
+        [DataType(DataType.Date)]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:MM/dd/yyyy}")]
+        public DateTime DOB { get; set; }
+        
+        public bool IsActive { get; set; } = true;
+        [DataType(DataType.Date)]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:MM/dd/yyyy}")]
+        public DateTime HireDate { get; set; }
         public string UserName { get; set; }
         public string Email { get; set; }
-        public IFormFile? ImageUrl { get; set; }
+        public IFormFile ImageUrl { get; set; }
     }
 }

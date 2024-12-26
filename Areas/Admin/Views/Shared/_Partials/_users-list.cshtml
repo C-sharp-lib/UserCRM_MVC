@@ -1,5 +1,5 @@
 @{
-    var users = ViewBag.Users;
+    
 }
 <div class="card shadow-lg bg-gradient-dark">
     <div class="card-header bg-gradient-dark">
@@ -18,9 +18,9 @@
             </tr>
             </thead>
             <tbody>
-            @if (users != null)
+            @if (ViewBag.Users != null)
             {
-                @foreach (var user in users)
+                @foreach (var user in ViewBag.Users)
                 {
                     <tr>
                         <td class="text-white ubuntu">@user.Id</td>
@@ -30,6 +30,7 @@
                         <td class="text-white ubuntu">@user.IsActive</td>
                         <td>
                             @Html.ActionLink("", "UserDetails", "Dashboard", new {id = user.Id}, new {@class="m-3 btn-tooltip fa-solid fa-list text-gradient text-info", title=$"View {user.FirstName}'s Profile"})
+                            @Html.ActionLink("", "UserUpdatePage", "Dashboard", new {id = user.Id}, new {@class="m-3 btn-tooltip fa-regular fa-pen-to-square text-gradient text-primary", title=$"Edit {user.FirstName}'s Profile"})
                             <a asp-action="UserDelete" asp-controller="Dashboard" asp-route-id="@user.Id" asp-area="Admin" class="m-3 btn-tooltip" title="Delete @user.UserName"><i class="fa-regular fa-trash-can text-gradient text-danger"></i></a>
                         </td>
                     </tr>
