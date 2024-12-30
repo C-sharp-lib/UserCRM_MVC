@@ -516,4 +516,100 @@ public class DashboardController : Controller
         }
         return View(jobNotes);
     }
+    
+    
+    
+    
+    [HttpGet("ProductUpdatePage/{id}")]
+    public async Task<IActionResult> ProductUpdatePage(int id)
+    {
+        if (ActiveUser == null)
+        {
+            return RedirectToAction("LoginPage", "Account");
+        }
+        var product = await _context.Products.FirstOrDefaultAsync(p => p.ProductId == id);
+        if (product == null)
+        {
+            return RedirectToAction("Index", "Dashboard", new { area = "Admin" });
+        }
+        ViewBag.user = ActiveUser;
+        ViewBag.updateProduct = product;
+        return View();
+    }
+
+    [HttpPost("ProcessUpdateProduct/{id}")]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> ProcessUpdateProduct(int id, [FromForm] UpdateProductDTO productDto)
+    {
+        if (ActiveUser == null)
+        {
+            ViewBag.ErrorMessage = $"Could not access the page, please login to continue.";
+            return RedirectToAction("LoginPage", "Account");
+        }
+
+        try
+        {
+            if (ModelState.IsValid)
+            {
+                var product = await _context.Products.FirstOrDefaultAsync(p => p.ProductId == id);
+                if (product == null)
+                {
+                    ViewBag.ErrorMessage = $"Could not find the product with the ID: {id}";
+                    return RedirectToAction("Index", "Dashboard", new { area = "Admin" });
+                }
+                string uploadsFolder = Path.Combine(_webenv.WebRootPath, "Uploads/products");
+                if (productDto.ImageUrl != null && productDto.ImageUrl.Length > 0)
+                {
+                    string uniqueFileName1 =
+                        Guid.NewGuid().ToString() + "_" + Path.GetFileName(productDto.ImageUrl.FileName);
+                    string filePath = Path.Combine(uploadsFolder, uniqueFileName1);
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await productDto.ImageUrl.CopyToAsync(fileStream);
+                    }
+
+                    product.ImageUrl = uniqueFileName1;
+                }
+
+                product.Name = productDto.Name;
+                product.Price = productDto.Price;
+                product.Description = productDto.Description;
+                product.UPC = productDto.UPC;
+                product.Currency = productDto.Currency;
+                product.QuantityInStock = productDto.QuantityInStock;
+                product.Category = productDto.Category;
+                _context.Products.Update(product);
+                await _context.SaveChangesAsync();
+                ViewBag.user = ActiveUser;
+                ViewBag.SuccessMessage = $"Success! Updated the product with the ID: {id}";
+                return RedirectToAction("ProductDetails", "Dashboard", new { area = "Admin", id = product.ProductId });
+            }
+
+            ViewBag.ErrorMessage = $"Could not update the user with the ID: {id}";
+            ModelState.AddModelError(string.Empty, $"Could not update the user with the provided ID: {id}");
+            return RedirectToAction("Index", "Dashboard", new { area = "Admin" });
+        }
+        catch (DbUpdateConcurrencyException ex)
+        {
+            ViewBag.ErrorMessage =
+                $"Could not update the user with the ID: {id} | DbUpdateConcurrencyException: {ex.Message}";
+            Console.WriteLine(ex.Message);
+        }
+        catch (DbUpdateException ex)
+        {
+            ViewBag.ErrorMessage =
+                $"Could not update the user with the ID: {id} | DbUpdateException: {ex.Message}";
+            Console.WriteLine(ex.Message);
+        }
+        catch (Exception ex)
+        {
+            ViewBag.ErrorMessage = $"Could not update the user with the ID: {id} | Exception: {ex.Message}";
+            Console.WriteLine(ex.Message);
+        }
+
+        return Redirect($"Admin/Dashboard/ProductDetails/{id}");
+    }
+    
+    
+    
 }

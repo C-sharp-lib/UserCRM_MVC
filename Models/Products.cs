@@ -11,19 +11,18 @@ namespace UserCRM.Models
         public int ProductId { get; set; }
         public string Name { get; set; }
         public string UPC {  get; set; }
-        public string? Description { get; set; } = string.Empty;
+        public string Description { get; set; }
         [Precision(10,2)]
         public decimal Price { get; set; }
         public string Currency {  get; set; }
         public int QuantityInStock { get; set; } = 0;
         public string Category {  get; set; } = string.Empty;
-        public bool IsActive { get; set; }
         public string ImageUrl { get; set; }
         public ICollection<OrderItems> OrderItems { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.Now;
         public DateTime UpdatedAt { get; set; } = DateTime.Now;
 
-        public string TruncateWords(string text, int wordCount = 5)
+        public string TruncateWords(string text, int wordCount)
         {
             if (string.IsNullOrEmpty(text))
                 return string.Empty;

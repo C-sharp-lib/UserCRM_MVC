@@ -14,7 +14,7 @@
             </div>
         </div>
     </div>
-    <div class="row mt-11">
+    <div class="row mb-11">
         <div class="col-12 col-md-6 col-lg-6">
             <div class="card shadow-lg bg-gradient-dark">
                 <div class="card-header bg-gradient-dark">
@@ -22,8 +22,8 @@
                 </div>
                 <div class="card-body bg-gradient-dark p-3">
                     <div id="app" class="card-container">
-                        <card data-image="@Model.ImageUrl">
-                            <h6 slot="header" class="text-gradient text-info ubuntu-bold">@Model.TruncateWordsThree(Model.Name)</h6>
+                        <card class="image-container" data-image="@Url.Content($"~/Uploads/products/{Model.ImageUrl}")">
+                            <h6 slot="header" class="text-gradient text-info ubuntu-bold">@Model.TruncateWords(Model.Name, 2)</h6>
                             <p slot="content" class="text-gradient text-success ubuntu-bold">@Model.Price.ToString("C")</p>
                         </card>
                     </div>
@@ -47,7 +47,11 @@
     </div>
 </div>
 @section Scripts {
-    <script type="text/javascript">
-        
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const productDiv = document.querySelector('.image-container');
+            const imagePath = productDiv.getAttribute('data-image');
+            productDiv.style.backgroundImage = `url(${imagePath})`;
+        });
     </script>
 }

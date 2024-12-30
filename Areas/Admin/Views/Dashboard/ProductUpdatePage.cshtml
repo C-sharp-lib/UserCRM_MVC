@@ -1,0 +1,139 @@
+﻿@model UserCRM.DTO.UpdateProductDTO
+@{
+  Layout = "_Layout";
+  Products product = ViewBag.updateProduct;
+}
+<div class="row mt-11 mb-11">
+  <div class="col-12 col-md-12">
+    <div class="card shadow-lg p-3 bg-gradient-dark mb-3">
+      <div class="card-header bg-gradient-dark text-gradient text-primary" style="display: flex; justify-content: space-between; align-items: center">
+        <h3 class="ubuntu-bold">Update Product</h3>
+        <a class="btn btn-outline-info text-gradient text-info ubuntu-bold" asp-action="Index" asp-controller="Dashboard" asp-area="Admin">Go Back</a>
+        <div class="row mt-3 mb-3">
+          <div class="col-12 col-md-6 offset-md-3">
+            <div class="bg-gradient-danger">
+              <p class="text-center text-white ubuntu-bold">@ViewBag.ErrorMessage</p>
+            </div>
+            <div class="bg-gradient-success">
+              <p class="text-center text-white ubuntu-bold">@ViewBag.SuccessMessage</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-body bg-gradient-dark p-3">
+        <form asp-action="ProcessUpdateProduct" asp-controller="Dashboard" asp-route-id="@product.ProductId" method="post" enctype="multipart/form-data">
+          <input type="hidden" name="_method" value="PUT">
+          <div class="row">
+            <div class="col-12 col-md-8 offset-md-2">
+              <div asp-validation-summary="All" class="text-danger ubuntu-bold list-no-style"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <h6 class="text-gradient text-info ubuntu-bold">Image Preview</h6>
+              <img id="previewImage" src="" alt="Image Preview"
+                   style="width: auto; display: none; margin-top: 10px; height: 400px"/>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-12">
+              <div class="form-group">
+                <input asp-for="ImageUrl" id="ImageUrl" value="@product.ImageUrl" style="display: none;"
+                       accept="image/*">
+                <label asp-for="ImageUrl" class="btn bg-gradient-dark custom-file-button">Choose File</label>
+                <span id="fileName" class="file-name text-warning ubuntu-bold">No file selected</span>
+                <span asp-validation-for="ImageUrl" class="text-danger m-2 p-2"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-md-3">
+              <div class="form-group">
+                <label asp-for="Name" class="ubuntu-bold text-gradient text-primary">Product Name</label>
+                <input asp-for="Name" value="@product.Name"
+                       class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold">
+                <span asp-validation-for="Name" class="text-danger m-2 p-2"></span>
+              </div>
+            </div>
+            <div class="col-12 col-md-3">
+              <div class="form-group">
+                <label asp-for="UPC" class="ubuntu-bold text-gradient text-primary">Product UPC</label>
+                <input asp-for="UPC" value="@product.UPC"
+                       class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold">
+                <span asp-validation-for="UPC" class="text-danger m-2 p-2"></span>
+              </div>
+            </div>
+            <div class="col-12 col-md-3">
+              <div class="form-group">
+                <label asp-for="Price" class="ubuntu-bold text-gradient text-primary">Product Price</label>
+                <input asp-for="Price" value="@product.Price"
+                       class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold">
+                <span asp-validation-for="Price" class="text-danger m-2 p-2"></span>
+              </div>
+            </div>
+            <div class="col-12 col-md-3">
+              <div class="form-group">
+                <label asp-for="Currency" class="ubuntu-bold text-gradient text-primary">Currency Type</label>
+                <input asp-for="Currency" value="@product.Currency"
+                       class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold">
+                <span asp-validation-for="Currency" class="text-danger m-2 p-2"></span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-6">
+              <div class="form-group">
+                <label asp-for="QuantityInStock" class="ubuntu-bold text-gradient text-primary">Quantity In Stock</label>
+                <input asp-for="QuantityInStock" value="@product.QuantityInStock"
+                       class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold">
+                <span asp-validation-for="QuantityInStock" class="text-danger m-2 p-2"></span>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6">
+              <div class="form-group">
+                <label asp-for="Category" class="ubuntu-bold text-gradient text-primary">Product Category</label>
+                <input asp-for="Category" value="@product.Category"
+                       class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold">
+                <span asp-validation-for="Category" class="text-danger m-2 p-2"></span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-12">
+              <div class="form-group">
+                <label asp-for="Description" class="ubuntu-bold text-gradient text-primary">Description</label>
+                @Html.TextArea("Description", product.Description, new {@class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold", cols=10, rows=5})
+                @*<textarea asp-for="Description" cols="30" rows="10" class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold" type="text">@product.Description</textarea>*@
+                <span asp-validation-for="Description" class="text-danger m-2 p-2"></span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+
+          </div>
+          <input type="submit" class="btn bg-gradient-primary ubuntu-bold" value="Update Product"/>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+@section Scripts {
+  <script type="text/javascript">
+    document.getElementById('ImageUrl').onchange = function (event) {
+      let reader = new FileReader();
+      reader.onload = function () {
+        let output = document.getElementById('previewImage');
+        output.src = reader.result;
+        output.style.display = 'block';
+      };
+      reader.readAsDataURL(event.target.files[0]);
+    };
+    document.getElementById('ImageUrl').addEventListener('change', function (event) {
+      let fileName = event.target.files.length > 0 ? event.target.files[0].name : "No file selected";
+      document.getElementById('fileName').textContent = fileName;
+    });
+  
+  </script>
+}

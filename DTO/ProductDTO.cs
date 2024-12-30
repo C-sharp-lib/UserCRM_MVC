@@ -9,17 +9,15 @@ namespace UserCRM.DTO
         public string Name { get; set; }
         [Required]
         public string UPC { get; set; }
-        public string? Description { get; set; } = string.Empty;
+        public string Description { get; set; }
         [Required]
         [Precision(10, 2)]
         public decimal Price { get; set; }
         public string? Currency { get; set; }
         [Required]
         public int QuantityInStock { get; set; } = 0;
-        public string? Category { get; set; } = string.Empty;
+        public string Category { get; set; }
         [Required]
-        public bool IsActive { get; set; }
-        [Required]
-        public string? ImageUrl { get; set; }
+        public string ImageUrl { get; set; }
     }
 }

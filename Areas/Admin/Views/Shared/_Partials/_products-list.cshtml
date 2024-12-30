@@ -22,13 +22,13 @@
                 {
                     <tr>
                         <td class="text-white ubuntu">@product.ProductId</td>
-                        <td class="text-white ubuntu">@product.TruncateWords(@product.Name)</td>
+                        <td class="text-white ubuntu">@product.TruncateWords(@product.Name, 2)</td>
                         <td class="text-white ubuntu">@product.UPC</td>
                         <td class="text-white ubuntu">@product.Price.ToString("C")</td>
                         <td class="text-white ubuntu">@product.QuantityInStock</td>
                         <td>
-                            <a  class="m-3 btn-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="View @product.Name" data-container="body" data-animation="true"><i class="fa-solid fa-list text-gradient text-info"></i></a>
-                            <a  class="m-3 btn-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit @product.Name" data-container="body" data-animation="true"><i class="fa-regular fa-pen-to-square text-gradient text-primary"></i></a>
+                            @Html.ActionLink("", "ProductDetails", "Dashboard", new {id = product.ProductId}, new {@class="m-3 btn-tooltip fa-solid fa-list text-gradient text-info", title=$"View {product.Name}'s Profile"})
+                            @Html.ActionLink("", "ProductUpdatePage", "Dashboard", new {id = product.ProductId}, new {@class="m-3 btn-tooltip fa-regular fa-pen-to-square text-gradient text-primary", title=$"Edit {product.Name}'s Profile"})
                             <a  class="m-3 btn-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete @product.Name" data-container="body" data-animation="true"><i class="fa-regular fa-trash-can text-gradient text-danger"></i></a>
                         </td>
                     </tr>
