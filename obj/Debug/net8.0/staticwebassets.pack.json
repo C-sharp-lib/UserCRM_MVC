@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\UserCRM.bundle.scp.css"
     },
     {
+      "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\Uploads\\4275bb22-f5ae-4485-816d-af97a2cd93b1_bengals1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\4275bb22-f5ae-4485-816d-af97a2cd93b1_bengals1.jpg"
+    },
+    {
       "Id": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\Uploads\\bengals2_bef7e064-01df-4756-b159-2780b7eaa18f.jpg",
       "PackagePath": "staticwebassets\\Uploads\\bengals2_bef7e064-01df-4756-b159-2780b7eaa18f.jpg"
     },

@@ -1,0 +1,227 @@
+﻿@model UserCRM.Models.Jobs
+@{
+    Layout = "_Layout";
+}
+<div class="container-fluid">
+  <div class="row mt-11">
+    <div class="col-12 col-md-6 offset-md-3">
+      <div class="bg-gradient-danger">
+        <p class="text-center text-white ubuntu-bold">@ViewBag.ErrorMessage</p>
+      </div>
+      <div class="bg-gradient-success">
+        <p class="text-center text-white ubuntu-bold">@ViewBag.SuccessMessage</p>
+      </div>
+    </div>
+  </div>
+  <div class="row mb-11">
+    <div class="col-12 col-md-5">
+
+      <div class="card shadow-lg bg-gradient-dark">
+        <div class="card-header bg-gradient-dark text-gradient text-primary" style="display: flex; justify-content: space-between; align-items: center">
+          <h3 class="ubuntu-bold">Job Details</h3>
+          <a class="btn btn-outline-info text-gradient text-info ubuntu-bold" asp-action="Index" asp-controller="Dashboard" asp-area="Admin">Go Back</a>
+          <div class="row mt-3 mb-3">
+            <div class="col-12 col-md-6 offset-md-3">
+              <div class="bg-gradient-danger">
+                <p class="text-center text-white ubuntu-bold">@ViewBag.ErrorMessage</p>
+              </div>
+              <div class="bg-gradient-success">
+                <p class="text-center text-white ubuntu-bold">@ViewBag.SuccessMessage</p>
+              </div>
+            </div>
+          </div>
+          </div>
+        <div class="card-body">
+          <h3 class="text-gradient text-info ubuntu-bold">@Model.JobTitle</h3>
+          <p class="text-gradient text-primary ubuntu-bold">Time Frame: 
+            @String.Format("{0:MM/dd/yyyy}", Model.StartDate) - @String.Format("{0:MM/dd/yyyy}", Model.EndDate)
+            </p>
+          <p class="text-gradient text-primary ubuntu-bold">Job Status: @Model.JobStatus</p>
+          <p class="text-gradient text-primary ubuntu-bold">Job Priority: @Model.Priority</p>
+          <p class="text-gradient text-primary ubuntu-bold">Estimated Cost: @Model.EstimatedCost.ToString("C")</p>
+          <p class="text-gradient text-primary ubuntu-bold">Actual Cost: @Model.ActualCost.ToString("C")</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-7">
+
+      <div class="row">
+        <div class="col-12 col-md-12">
+          <div class="row">
+            <div class="col-12">
+              <div class="card shadow-lg bg-gradient-dark">
+                <div class="card-header bg-gradient-dark">
+                  <h3 class="text-gradient text-primary ubuntu-bold">Customer Jobs</h3>
+                </div>
+                <div class="card-body bg-gradient-dark p-3">
+                  <table class="table table-hover table-striped table-borderless">
+                    <thead>
+                    <tr class="text-center">
+                      <th class="text-gradient text-primary ubuntu-bold">Customer Name</th>
+                      <th class="text-gradient text-primary ubuntu-bold">Job Title</th>
+                      <th class="text-gradient text-primary ubuntu-bold">Job Time Frame</th>
+                      <th class="text-gradient text-primary ubuntu-bold">Customer Email</th>
+                      <th class="text-gradient text-primary ubuntu-bold">Customer Phone</th>
+                      <th class="text-gradient text-primary ubuntu-bold">Actions</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    @if (Model.CustomerJobs.Count > 0)
+                    {
+                      @foreach (var cj in Model.CustomerJobs)
+                      {
+                        <tr class="text-center">
+                          <td class="text-white ubuntu text-sm">@cj.Customers.Name</td>
+                          <td class="text-white ubuntu text-sm">@cj.Jobs.JobTitle</td>
+                          <td class="text-white ubuntu text-sm">
+                            @cj.Jobs.StartDate.ToString("d") - @cj.Jobs.EndDate.ToString("d")
+                          </td>
+                          <td class="text-white ubuntu text-sm">@cj.Customers.Email</td>
+                          <td class="text-white ubuntu text-sm">@cj.Customers.Phone</td>
+                          <td class="text-sm">
+                            @Html.ActionLink("", "CustomerJobDetails", "Dashboard", new { id = cj.CustomerJobsId }, new { @class = "m-3 btn-tooltip fa-solid fa-list text-gradient text-info", title = $"View {cj.Customers.Name} job?" })
+                            <a class="m-3 btn-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"
+                               data-container="body" data-animation="true">
+                              <i
+                                class="fa-regular fa-trash-can text-gradient text-danger"></i></a>
+                          </td>
+                        </tr>
+                      }
+                    }
+                    else
+                    {
+                      <tr class="text-center">
+                        <td class="text-white ubuntu text-sm">No campaign user tasks right now for this user.</td>
+                      </tr>
+                    }
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-12">
+              <div class="card shadow-lg bg-gradient-dark">
+                <div class="card-header bg-gradient-dark">
+                  <h3 class="text-gradient text-primary ubuntu-bold">Job User Tasks</h3>
+                </div>
+                <div class="card-body bg-gradient-dark p-3">
+                  <div>
+                    <table class="table table-hover table-striped table-borderless">
+                      <thead>
+                      <tr class="text-center">
+                        <th class="text-gradient text-primary ubuntu-bold">Task Username</th>
+                        <th class="text-gradient text-primary ubuntu-bold">Job Title</th>
+                        <th class="text-gradient text-primary ubuntu-bold">Task Title</th>
+                        <th class="text-gradient text-primary ubuntu-bold">Job Start Date</th>
+                        <th class="text-gradient text-primary ubuntu-bold">Task Due Date</th>
+                        <th class="text-gradient text-primary ubuntu-bold">Actions</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      @if (Model.JobUserTasks.Count > 0)
+                      {
+                        @foreach (var u in Model.JobUserTasks)
+                        {
+                          <tr class="text-center">
+                            <td class="text-white ubuntu text-sm">@u.User.UserName</td>
+                            <td class="text-white ubuntu text-sm">@u.Job.JobTitle</td>
+                            <td class="text-white ubuntu text-sm">@u.Task.Title</td>
+                            <td class="text-white ubuntu text-sm">@u.Job.StartDate.ToString("d")</td>
+                            <td class="text-white ubuntu text-sm">@u.Task.DueDate.ToString("d")</td>
+                            <td class="text-sm">
+                              @Html.ActionLink("", "JobUserTaskDetails", "Dashboard", new { id = u.JobUserTaskId }, new { @class = "m-3 btn-tooltip fa-solid fa-list text-gradient text-info", title = $"View {u.Job.JobTitle} task" })
+                              <a class="m-3 btn-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"
+                                 data-container="body" data-animation="true">
+                                <i
+                                  class="fa-regular fa-trash-can text-gradient text-danger"></i></a>
+                            </td>
+                          </tr>
+                        }
+                      }
+                      else
+                      {
+                        <tr class="text-center">
+                          <td class="text-white ubuntu text-sm">No job user tasks right now for this user.</td>
+                        </tr>
+                      }
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row mt-3">
+            <div class="col-12">
+              <div class="card shadow-lg bg-gradient-dark">
+                <div class="card-header bg-gradient-dark">
+                  <h3 class="text-gradient text-primary ubuntu-bold">Job User Notes</h3>
+                </div>
+                <div class="card-body bg-gradient-dark p-3">
+                  <div>
+                    <table class="table table-hover table-striped table-borderless">
+                      <thead>
+                      <tr class="text-center">
+                        <th class="text-gradient text-primary ubuntu-bold">Note Username</th>
+                        <th class="text-gradient text-primary ubuntu-bold">Job Title</th>
+                        <th class="text-gradient text-primary ubuntu-bold">Note</th>
+                        <th class="text-gradient text-primary ubuntu-bold">Note Created Date</th>
+                        <th class="text-gradient text-primary ubuntu-bold">Job Status</th>
+                        <th class="text-gradient text-primary ubuntu-bold">Actions</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      @if (Model.JobUserNotes.Count > 0)
+                      {
+                        @foreach (var u in Model.JobUserNotes)
+                        {
+                          <tr class="text-center">
+                            <td class="text-white ubuntu text-sm">@u.User.UserName</td>
+                            <td class="text-white ubuntu text-sm">@u.Job.TruncateWordsThree(u.Job.JobTitle)</td>
+                            <td class="text-white ubuntu text-sm">@u.Notes.TruncateWordsThree(u.Notes.Note)</td>
+                            <td class="text-white ubuntu text-sm">@u.Notes.CreatedAt.ToString("d")</td>
+                            <td class="text-white ubuntu text-sm">@u.Job.JobStatus</td>
+                            <td class="text-sm">
+                              @Html.ActionLink("", "JobUserNotesDetails", "Dashboard", new { id = u.JobUserNoteId }, new { @class = "m-3 btn-tooltip fa-solid fa-list text-gradient text-info", title = $"View {u.Job.JobTitle} task" })
+                              <a class="m-3 btn-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"
+                                 data-container="body" data-animation="true">
+                                <i
+                                  class="fa-regular fa-trash-can text-gradient text-danger"></i></a>
+                            </td>
+                          </tr>
+                        }
+                      }
+                      else
+                      {
+                        <tr class="text-center">
+                          <td class="text-white ubuntu text-sm">No job user notes right now for this user.</td>
+                        </tr>
+                      }
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+@section Scripts {
+  <script>
+    // Preview the image before uploading
+    
+    
+  </script>
+}
+

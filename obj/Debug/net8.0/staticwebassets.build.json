@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4A/QWH1FZTAh5fhiZBmCyX/blprkCpkAST6FZ8U4OIo=",
+  "Hash": "xVDhAn/DyDenFAROb8wmRgvZQYrSx2suno1i+zELGP4=",
   "Source": "UserCRM",
   "BasePath": "_content/UserCRM",
   "Mode": "Default",
@@ -10731,6 +10731,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\pages\\work-with-us.html"
+    },
+    {
+      "Identity": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\Uploads\\4275bb22-f5ae-4485-816d-af97a2cd93b1_bengals1.jpg",
+      "SourceId": "UserCRM",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\",
+      "BasePath": "_content/UserCRM",
+      "RelativePath": "Uploads/4275bb22-f5ae-4485-816d-af97a2cd93b1_bengals1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\4275bb22-f5ae-4485-816d-af97a2cd93b1_bengals1.jpg"
     },
     {
       "Identity": "D:\\Development\\UserCRM\\UserCRM\\UserCRM\\wwwroot\\Uploads\\bengals2_bef7e064-01df-4756-b159-2780b7eaa18f.jpg",

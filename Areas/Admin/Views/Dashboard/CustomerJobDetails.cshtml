@@ -1,0 +1,39 @@
+﻿@model UserCRM.Models.CustomerJobs
+
+@{
+    Layout = "_Layout";
+}
+
+<div class="container">
+<div class="row mt-11">
+    <div class="col-12 col-md-12">
+        <div class="card shadow-lg bg-gradient-dark mb-11">
+            <div class="card-header bg-gradient-dark">
+                <h1 class="text-gradient text-primary ubuntu-bold">Customer Jobs</h1>
+            </div>
+            <div class="card-body p-3">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <ul class="list-group">
+                            <li class="list-group-item ubuntu-bold text-white active">Job @Model.Jobs.JobId</li>
+                            <li class="list-group-item ubuntu-bold text-white">Title: @Model.Jobs.JobTitle</li>
+                            <li class="list-group-item ubuntu-bold text-white">Timeframe: @Model.Jobs.StartDate.ToString("d") - @Model.Jobs.EndDate.ToString("d")</li>
+                            <li class="list-group-item ubuntu-bold text-white">Priority: @Model.Jobs.Priority</li>
+                            <li class="list-group-item ubuntu-bold text-white">Status: @Model.Jobs.JobStatus</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <ul class="list-group">
+                            <li class="list-group-item ubuntu-bold text-white active">Customer @Model.Customers.CustomerId</li>
+                            <li class="list-group-item ubuntu-bold text-white">Name: @Model.Customers.Name</li>
+                            <li class="list-group-item ubuntu-bold text-white">Email: @Model.Customers.Email</li>
+                            <li class="list-group-item ubuntu-bold text-white">Phone: @Model.Customers.Phone</li>
+                            <li class="list-group-item ubuntu-bold text-white">Website: @Model.Customers.Website</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

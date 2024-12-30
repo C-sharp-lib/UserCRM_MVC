@@ -21,7 +21,7 @@ namespace UserCRM.Models
         [DataType(DataType.Date)]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:MM/dd/yyyy}")]
         public DateTime? HireDate { get; set; }
-
+        
         public string? ImageUrl { get; set; }
         public string? Role { get; set; }
         public string Email { get; set; }

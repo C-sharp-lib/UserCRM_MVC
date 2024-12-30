@@ -84,7 +84,8 @@ namespace UserCRM.Controllers
                     LastName = newuser.LastName,
                     Email = newuser.Email,
                     UserName = newuser.UserName,
-                    Password = Hasher.HashPassword(newuser, newuser.Password)
+                    Password = Hasher.HashPassword(newuser, newuser.Password),
+                    CreatedAt = DateTime.Now
                 };
                 _context.Users.Add(newUser);
                 await _context.SaveChangesAsync();

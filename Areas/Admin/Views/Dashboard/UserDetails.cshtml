@@ -3,7 +3,17 @@
   Layout = "_Layout";
 }
 <div class="container-fluid">
-  <div class="row mt-11 mb-11">
+  <div class="row mt-11">
+    <div class="col-12 col-md-6 offset-md-3">
+      <div class="bg-gradient-danger">
+        <p class="text-center text-white ubuntu-bold">@ViewBag.ErrorMessage</p>
+      </div>
+      <div class="bg-gradient-success">
+        <p class="text-center text-white ubuntu-bold">@ViewBag.SuccessMessage</p>
+      </div>
+    </div>
+  </div>
+  <div class="row mb-11">
     <div class="col-12 col-md-5">
 
       <div class="card shadow-lg bg-gradient-dark">
@@ -45,7 +55,7 @@
     </div>
 
     <div class="col-12 col-md-7">
-      
+
       <div class="row">
         <div class="col-12 col-md-12">
           <div class="row">
@@ -78,7 +88,8 @@
                           <td class="text-sm">
                             @Html.ActionLink("", "CampaignUserTaskDetails", "Dashboard", new { id = u.CampaignUserTaskId }, new { @class = "m-3 btn-tooltip fa-solid fa-list text-gradient text-info", title = $"View {u.Campaign.Title} task" })
                             <a class="m-3 btn-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"
-                               data-container="body" data-animation="true"><i
+                               data-container="body" data-animation="true">
+                              <i
                                 class="fa-regular fa-trash-can text-gradient text-danger"></i></a>
                           </td>
                         </tr>
@@ -129,7 +140,8 @@
                             <td class="text-sm">
                               @Html.ActionLink("", "JobUserTaskDetails", "Dashboard", new { id = u.JobUserTaskId }, new { @class = "m-3 btn-tooltip fa-solid fa-list text-gradient text-info", title = $"View {u.Job.JobTitle} task" })
                               <a class="m-3 btn-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"
-                                 data-container="body" data-animation="true"><i
+                                 data-container="body" data-animation="true">
+                                <i
                                   class="fa-regular fa-trash-can text-gradient text-danger"></i></a>
                             </td>
                           </tr>

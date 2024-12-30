@@ -1,4 +1,4 @@
-﻿@model UserCRM.Models.JobUserTasks
+﻿@model UserCRM.Models.JobUserNotes
 @{
     Layout = "_Layout";
 }
@@ -7,14 +7,14 @@
     <div class="col-12 col-md-12">
         <div class="card shadow-lg bg-gradient-dark mb-11">
             <div class="card-header bg-gradient-dark">
-                <h1 class="text-gradient text-primary ubuntu-bold">Users Job Task</h1>
+                <h1 class="text-gradient text-primary ubuntu-bold">Users Job Notes</h1>
             </div>
             <div class="card-body p-3">
                 <div class="row">
                     <div class="col-12 col-md-4">
                         <ul class="list-group">
                             <li class="list-group-item ubuntu-bold text-white active">Job @Model.Job.JobId</li>
-                            <li class="list-group-item ubuntu-bold text-white">Title: @Model.Job.JobTitle</li>
+                            <li class="list-group-item ubuntu-bold text-white">Title: @Model.Job.TruncateWordsThree(Model.Job.JobTitle)</li>
                             <li class="list-group-item ubuntu-bold text-white">Timeframe: @Model.Job.StartDate.ToString("d") - @Model.Job.EndDate.ToString("d")</li>
                             <li class="list-group-item ubuntu-bold text-white">Priority: @Model.Job.Priority</li>
                             <li class="list-group-item ubuntu-bold text-white">Status: @Model.Job.JobStatus</li>
@@ -22,11 +22,9 @@
                     </div>
                     <div class="col-12 col-md-4">
                         <ul class="list-group">
-                            <li class="list-group-item ubuntu-bold text-white active">Task @Model.Task.TaskId</li>
-                            <li class="list-group-item ubuntu-bold text-white">Title: @Model.Task.Title</li>
-                            <li class="list-group-item ubuntu-bold text-white">Due Date: @Model.Task.DueDate.ToString("d")</li>
-                            <li class="list-group-item ubuntu-bold text-white">Status: @Model.Task.Status</li>
-                            <li class="list-group-item ubuntu-bold text-white">Priority: @Model.Task.Priority</li>
+                            <li class="list-group-item ubuntu-bold text-white active">Note @Model.Notes.NoteId</li>
+                            <li class="list-group-item ubuntu-bold text-white">Note: @Model.Notes.TruncateWordsThree(Model.Notes.Note)</li>
+                            <li class="list-group-item ubuntu-bold text-white">Created Date: @Model.Notes.CreatedAt.ToString("d")</li>
                         </ul>
                     </div>
                     <div class="col-12 col-md-4">
@@ -42,10 +40,11 @@
                 <div class="row">
                     <div class="col-12-col-md-12 p-3">
                         <h4 class="text-gradient text-primary ubuntu-bold">Job Description</h4>
+                        <h3 class="ubuntu text-gradient text-info">@Model.Job.JobTitle</h3>
                         <p class="ubuntu text-white">@Model.Job.JobDescription</p>
                         <hr class="bg-gradient-info">
-                        <h4 class="text-gradient text-primary ubuntu-bold">Task Description</h4>
-                        <p class="ubuntu text-white">@Model.Task.Description</p>
+                        <h4 class="text-gradient text-primary ubuntu-bold">Note</h4>
+                        <p class="ubuntu text-white">@Model.Notes.Note</p>
                     </div>
                 </div>
             </div>

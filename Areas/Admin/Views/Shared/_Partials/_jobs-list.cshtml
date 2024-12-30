@@ -27,8 +27,7 @@
                         <td class="text-white ubuntu">@job.Priority</td>
                         <td class="text-white ubuntu">@job.ActualCost.ToString("C")</td>
                         <td>
-                            <a href="#" class="m-3 btn-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="View @job.JobTitle" data-container="body" data-animation="true"><i class="fa-solid fa-list text-gradient text-info"></i></a>
-                            <a href="#" class="m-3 btn-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit @job.JobTitle" data-container="body" data-animation="true"><i class="fa-regular fa-pen-to-square text-gradient text-primary"></i></a>
+                            @Html.ActionLink("", "JobDetails", "Dashboard", new {id = job.JobId}, new {@class="m-3 btn-tooltip fa-solid fa-list text-gradient text-info", title=$"View {job.JobTitle}'s Details"})
                             <a href="#" class="m-3 btn-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete @job.JobTitle" data-container="body" data-animation="true"><i class="fa-regular fa-trash-can text-gradient text-danger"></i></a>
                         </td>
                     </tr>

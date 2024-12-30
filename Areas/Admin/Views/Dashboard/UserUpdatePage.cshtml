@@ -1,15 +1,28 @@
-﻿@{
+﻿@model UserCRM.DTO.UpdateUserDTO
+@{
   Layout = "_Layout";
-  var user = ViewBag.updateUser;
+  Users user = ViewBag.updateUser;
 }
-<div class="row mt-5 mb-11">
+<div class="row mt-11 mb-11">
   <div class="col-12 col-md-12">
     <div class="card shadow-lg p-3 bg-gradient-dark mb-3">
-      <div class="card-header bg-gradient-dark text-gradient text-primary">
+      <div class="card-header bg-gradient-dark text-gradient text-primary" style="display: flex; justify-content: space-between; align-items: center">
         <h3 class="ubuntu-bold">Update User</h3>
+        <a class="btn btn-outline-info text-gradient text-info ubuntu-bold" asp-action="Index" asp-controller="Dashboard" asp-area="Admin">Go Back</a>
+        <div class="row mt-3 mb-3">
+          <div class="col-12 col-md-6 offset-md-3">
+            <div class="bg-gradient-danger">
+              <p class="text-center text-white ubuntu-bold">@ViewBag.ErrorMessage</p>
+            </div>
+            <div class="bg-gradient-success">
+              <p class="text-center text-white ubuntu-bold">@ViewBag.SuccessMessage</p>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="card-body bg-gradient-dark p-3">
         <form asp-action="ProcessUpdateUser" asp-controller="Dashboard" asp-route-id="@user.Id" method="post" enctype="multipart/form-data">
+          <input type="hidden" name="_method" value="PUT">
           <div class="row">
             <div class="col-12 col-md-8 offset-md-2">
               <div asp-validation-summary="All" class="text-danger ubuntu-bold list-no-style"></div>
@@ -19,73 +32,99 @@
             <div class="col-12">
               <h6 class="text-gradient text-info ubuntu-bold">Image Preview</h6>
               <img id="previewImage" src="" alt="Image Preview"
-                   style="max-width: 350px; display: none; margin-top: 10px; height: 400px"/>
+                   style="width: auto; display: none; margin-top: 10px; height: 400px"/>
             </div>
           </div>
           <div class="row">
             <div class="col-12 col-md-12">
               <div class="form-group">
-                <input type="file" name="imageUrl" id="ImageUrl" value="@user.ImageUrl" style="display: none;"
+                <input asp-for="ImageUrl" id="ImageUrl" value="@user?.ImageUrl" style="display: none;"
                        accept="image/*">
-                <label for="ImageUrl" class="btn bg-gradient-dark custom-file-button">Choose File</label>
+                <label asp-for="ImageUrl" class="btn bg-gradient-dark custom-file-button">Choose File</label>
                 <span id="fileName" class="file-name text-warning ubuntu-bold">No file selected</span>
+                <span asp-validation-for="ImageUrl" class="text-danger m-2 p-2"></span>
               </div>
             </div>
           </div>
           <div class="row">
             <div class="col-12 col-md-6">
               <div class="form-group">
-                <label for="dob" class="ubuntu-bold text-gradient text-primary">DOB</label>
-                <input type="date" id="dob" name="dob" value="@user.DOB"
-                       class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold">
-              </div>
+                <label asp-for="DOB" class="ubuntu-bold text-gradient text-primary">DOB</label>
+                @*<input asp-for="DOB" value="@user?.DOB?.ToString("MM/dd/yyyy")"
+                       class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold">*@
+                @Html.TextBox("DOB", user?.DOB?.ToString("MM/dd/yyyy"), new {@class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold"})
+                <span asp-validation-for="DOB" class="text-danger m-2 p-2"></span>
+                </div>
             </div>
             <div class="col-12 col-md-6">
               <div class="form-group">
-                <label for="HireDate" class="ubuntu-bold text-gradient text-primary">Hire Date</label>
-                <input type="date" id="HireDate" name="hiredate" value="@user.HireDate"
-                       class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold">
+                <label asp-for="HireDate" class="ubuntu-bold text-gradient text-primary">Hire Date</label>
+                @*<input asp-for="HireDate" value="@user?.HireDate?.ToString("MM/dd/yyyy")"
+                       class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold">*@
+                @Html.TextBox("HireDate", user?.HireDate?.ToString("MM/dd/yyyy"), new {@class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold"})
+                <span asp-validation-for="HireDate" class="text-danger m-2 p-2"></span>
               </div>
             </div>
 
           </div>
 
           <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-3">
               <div class="form-group">
-                <label for="UserName" class="ubuntu-bold text-gradient text-primary">UserName</label>
-                <input type="text" id="UserName" name="username" value="@user.UserName"
+                <label asp-for="UserName" class="ubuntu-bold text-gradient text-primary">UserName</label>
+                <input asp-for="UserName" value="@user?.UserName"
                        class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold">
+                <span asp-validation-for="UserName" class="text-danger m-2 p-2"></span>
               </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-3">
               <div class="form-group">
-                <label for="Email" class="ubuntu-bold text-gradient text-primary">Email</label>
-                <input type="email" id="Email" name="email" value="@user.Email"
+                <label asp-for="Email" class="ubuntu-bold text-gradient text-primary">Email</label>
+                <input asp-for="Email" value="@user?.Email"
                        class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold">
+                <span asp-validation-for="Email" class="text-danger m-2 p-2"></span>
+              </div>
+            </div>
+            <div class="col-12 col-md-3">
+              <div class="form-group">
+                <label asp-for="Role" class="ubuntu-bold text-gradient text-primary">Role</label>
+                <input asp-for="Role" value="@user?.Role"
+                       class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold">
+                <span asp-validation-for="Role" class="text-danger m-2 p-2"></span>
+              </div>
+            </div>
+            <div class="col-12 col-md-3">
+              <div class="form-group">
+                <label asp-for="Phone" class="ubuntu-bold text-gradient text-primary">Phone</label>
+                <input asp-for="Phone" value="@user?.Phone"
+                       class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold">
+                <span asp-validation-for="Phone" class="text-danger m-2 p-2"></span>
               </div>
             </div>
           </div>
           <div class="row">
             <div class="col-12 col-sm-12 col-md-4">
               <div class="form-group">
-                <label for="FirstName" class="ubuntu-bold text-gradient text-primary">First Name</label>
-                <input type="text" name="firstname" value="@user.FirstName" id="FirstName"
+                <label asp-for="FirstName" class="ubuntu-bold text-gradient text-primary">First Name</label>
+                <input asp-for="FirstName" value="@user?.FirstName" id="FirstName"
                        class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold">
+                <span asp-validation-for="FirstName" class="text-danger m-2 p-2"></span>
               </div>
             </div>
             <div class="col-12 col-sm-12 col-md-4">
               <div class="form-group">
-                <label for="MiddleName" class="ubuntu-bold text-gradient text-primary">Middle Name</label>
-                <input type="text" name="middlename" value="@user.MiddleName" id="MiddleName"
+                <label asp-for="MiddleName" class="ubuntu-bold text-gradient text-primary">Middle Name</label>
+                <input asp-for="MiddleName" value="@user?.MiddleName"
                        class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold">
+                <span asp-validation-for="MiddleName" class="text-danger m-2 p-2"></span>
               </div>
             </div>
             <div class="col-12 col-sm-12 col-md-4">
               <div class="form-group">
-                <label for="LastName" class="ubuntu-bold text-gradient text-primary">Last Name</label>
-                <input type="text" name="lastname" value="@user.LastName" id="LastName"
+                <label asp-for="LastName" class="ubuntu-bold text-gradient text-primary">Last Name</label>
+                <input asp-for="LastName" value="@user?.LastName"
                        class="form-control form-control-lg color-background bg-gradient-dark text-white ubuntu-bold">
+                <span asp-validation-for="LastName" class="text-danger m-2 p-2"></span>
               </div>
             </div>
           </div>

@@ -10,6 +10,16 @@
         <div class="card-header bg-gradient-dark" style="display: flex; justify-content: space-between; align-items: center">
             <h3 class="ubuntu-bold text-gradient text-primary">Add User</h3>
             <a class="btn btn-outline-info text-gradient text-info ubuntu-bold" asp-action="Index" asp-controller="Dashboard" asp-area="Admin">Go Back</a>
+            <div class="row mt-3 mb-3">
+                <div class="col-12 col-md-6 offset-md-3">
+                    <div class="bg-gradient-danger">
+                        <p class="text-center text-white ubuntu-bold">@ViewBag.ErrorMessage</p>
+                    </div>
+                    <div class="bg-gradient-success">
+                        <p class="text-center text-white ubuntu-bold">@ViewBag.SuccessMessage</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="card-body bg-gradient-dark p-3">
             <form asp-action="AddUser" asp-controller="Dashboard" method="post" enctype="multipart/form-data">

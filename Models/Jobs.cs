@@ -24,5 +24,13 @@ namespace UserCRM.Models
         public ICollection<CustomerJobs> CustomerJobs { get; set; }
         public ICollection<JobUserNotes> JobUserNotes { get; set; }
         public ICollection<JobUserTasks> JobUserTasks { get; set; }
+        public string TruncateWordsThree(string text, int wordCount = 3)
+        {
+            if (string.IsNullOrEmpty(text))
+                return string.Empty;
+            var words = text.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+            if (words.Length <= wordCount) return text;
+            return string.Join(" ", words.Take(wordCount)) + "...";
+        }
     }
 }
